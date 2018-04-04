@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your page.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://qwtel.com
+url:                   https://xiaosean.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 #
@@ -15,14 +15,14 @@ url:                   https://qwtel.com
 # When using GitHub Pages, set to '' when hosting a user- or organization page,
 # i.e. when the name of the repository looks like <username>.github.io.
 # Otherwise, set to /<name of repository> (with leading /, but without the < >).
-baseurl:               /hydejack-starter-kit
+baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
+title:                 XiaosSean
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -33,8 +33,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  記錄學習的點點滴滴
 
 # A list of keywords for your blog.
 keywords:              []
@@ -45,13 +44,21 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                LIN YONG-XIANG
+  email:               <xiaosean5408@gmail.com>
+  picture:  /assets/img/me.jpg
+  social:
+    github:  xiaosean
+    email:    mailto:xiaosean5408@gmail.com
+
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
+disqus: xiaosean
+
+
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2017. All rights reserved.
+copyright:             © XiaoSean 2018. All rights reserved.
 
 # Format of the permalinks
 permalink:             pretty
@@ -136,11 +143,25 @@ hydejack:
   # Set to `true` when building with the `--lsi` option
   use_lsi:             false
 
-
+# file: _config.yml
+defaults:
+  - scope:
+      path: posts.md
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: about.md
+    values:
+      menu: true
+      order: 2
 # Collections
 # ========================================================================================
 
 collections:
+  projects:
+    permalink: /projects/:path/
+    output:    true
   featured_categories:
     permalink:         /category/:name/
     output:            true
