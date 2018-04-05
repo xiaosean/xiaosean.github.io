@@ -22,7 +22,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 XiaosSean
+title:                 XiaoSean
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -48,6 +48,7 @@ author:
   email:               <xiaosean5408@gmail.com>
   picture:  /assets/img/me.jpg
   social:
+    facebook:        xiaosean000
     github:  xiaosean
     email:    mailto:xiaosean5408@gmail.com
 
@@ -159,9 +160,6 @@ defaults:
 # ========================================================================================
 
 collections:
-  projects:
-    permalink: /projects/:path/
-    output:    true
   featured_categories:
     permalink:         /category/:name/
     output:            true
@@ -169,11 +167,6 @@ collections:
   featured_tags:
     permalink:         /tag/:name/
     output:            true
-
-  projects:
-    permalink:         /projects/:path/
-    output:            true
-
 
 # File inclusion/exclusion
 # ========================================================================================
