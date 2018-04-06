@@ -30,8 +30,10 @@ tags: [example, content]
 ---
 
 CocoaPods以ios有名的圖表視覺化Package - [Charts]為例。
+[github_My_Pod]
 
 Swift Package Manager以Package - [SwiftyBeaver]為例。
+[github_My_SPM]
 
 原本想說應該都用Charts這Package做展示的
 不過我實際在SPM安裝Charts，有點問題。文檔上也沒寫到如何使用SPM安裝
@@ -148,7 +150,11 @@ CocoaPod 安裝Package的特色是會產生一個.xcworkspace
 ![](/assets/img/2018-04-06-IOS-package-manager/pod/charts_can_import.png)
 
 
+如果有不清楚的地方
 
+可以觀看此次的成果
+
+[github_My_Pod]
 
 # Swift Package Manager
 
@@ -321,12 +327,19 @@ test_SPM這個專案
 
 ![](/assets/img/2018-04-06-IOS-package-manager/SPM/success_import.png)
 
+如果有不清楚的地方
+
+可以觀看此次的成果
+
+[github_My_SPM]
+
 
 ## 參考連結
 [Enjoy Your Coding 使用 Swift Package Manager 管理套件]
 
 
-
+[github_My_SPM]: https://github.com/xiaosean/Swift_package_manager_install_example
+[github_My_Pod]: https://github.com/xiaosean/Pod_install_example
 [Charts]: https://github.com/danielgindi/Charts
 [SwiftyBeaver]: https://github.com/SwiftyBeaver/SwiftyBeaver
 [SwiftyBeaver_releases]: https://github.com/SwiftyBeaver/SwiftyBeaver/releases
