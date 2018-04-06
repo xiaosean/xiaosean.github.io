@@ -18,6 +18,9 @@ hide_description: true
 # menu: true
 ---
 
+此網站創立於20180404
+
+主要是寫一些平時所學到的東西
 
   > 傳送門 --- [blog] 或 [post].
 {:.lead}
