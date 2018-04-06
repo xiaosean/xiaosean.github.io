@@ -31,15 +31,17 @@ tags: [example, content]
 
 CocoaPods以ios有名的圖表視覺化Package - [Charts]為例。
 
-Swift Package Manager以Package - [Vapor]為例。
+Swift Package Manager以Package - [SwiftyBeaver]為例。
 
 原本想說應該都用Charts這Package做展示的
 不過我實際在SPM安裝Charts，有點問題。文檔上也沒寫到如何使用SPM安裝
 
 前言：為什麼會寫這文章呢？因為Swift更動的速度太快，
 網路上中文的ios套件管理工具，有的都已經有點舊了，不適用了。
+因網路上的SPM多半是swift3版本的。
+因此最近有空來分享一下swift4版本的做法！
+有錯請指正！
 
-，剛好最近有機會做ios的案子，因此寫一下來分享，有問題的話也歡迎反應！
 
 
 在ios中有3個主流的套件管理工具
@@ -49,7 +51,7 @@ Swift Package Manager以Package - [Vapor]為例。
   - 我認為最簡單的套件管理方式
 - Swift Package Manager
   - 官方支持
-  - 支援較少
+  - 支援的Package較少
   - 會遇到的問題很多
 - Carthage
   - 我沒用過，不評論。
@@ -131,6 +133,7 @@ Swift每年都在更新，要找到Package支援新版本的Swift其實不容易
 ![](/assets/img/2018-04-06-IOS-package-manager/pod/pod_command.png)
 
 之後會發現多了一個檔案 **test_Pod.xcworkspace**
+
 CocoaPod 安裝Package的特色是會產生一個.xcworkspace
 
 ![](/assets/img/2018-04-06-IOS-package-manager/pod/xcworkspace.png)
@@ -149,12 +152,37 @@ CocoaPod 安裝Package的特色是會產生一個.xcworkspace
 
 # Swift Package Manager
 
+首先我們先創建一個Single View的App
 
-輸入下面一行，創建好SPM所需的環境
+之後我們命名為**test_SPM**
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/SPM_singleView.png)
+
+打開ViewController.swift
+
+我們可以先天真的import SwiftyBeaver 看他有沒有反應，
+
+>import SwiftyBeaver
+{:.message}
+
+理所當然地會出現下面的畫面
+
+>No such module 'SwiftyBeaver'
+{:.message}
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/Beaver_cannot_import.png)
+
+接下來我們在剛剛創建的testSPM這目錄底下
+創建一個資料夾***Library***
+在該資料夾下使用command透過指令
+創建SPM所需的環境
+
 >swift package init --type executable
 {:message}
 
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/swift_init.png)
+
+
 那我們可以看到其實多了一些東西，
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/create_library.png)
 
 下面不一一介紹，我們只要知道最重要的是 **Package.swift**
 
@@ -183,15 +211,23 @@ let package = Package(
 ~~~
 
 簡單介紹一下，首先第一行的
-是說這個這些package所使用的Swift版本。
 > // swift-tools-version:4.0 <br>
 {:.message}
+
+是說這個這些package所使用的Swift版本。
+
+我們目前所使用的swift版本是4.0
+
 
 
 
 重點是第10行的
+
 package url > 之後會帶入該package之url 
-from > 版本號碼（（其實也沒這麼簡單拉，這邊先這樣說明。
+
+from > 版本號碼
+
+（（其實也沒這麼簡單拉，這邊先這樣說明。詳細請看文件
 >         // .package(url: /* package url */, from: "1.0.0"),
 {:.message}
 
@@ -200,80 +236,98 @@ from > 版本號碼（（其實也沒這麼簡單拉，這邊先這樣說明。
 >            dependencies: []),
 {:.message}
 
-接下來會展示怎麼將Charts這個package套用到專案中
-首先我們進入該專案的頁面[Charts]
-之後點擊上方的release
-如果你找不到，那就點擊這個連結吧[Charts_releases]
 
-可以看到左邊都會有tag，那個就是版本號碼
-如這張圖的3.0.0-rc.2.2.1.
+那版本號碼怎麼看呢
+
+首先我們進入該專案的頁面[SwiftyBeaver]
+
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/github_to_release.png)
+
+點擊上方的release
+
+可以看到都會有tag，那個就是版本號碼
+
+如這張圖最新的版本號碼為1.5.2.
+
+那我們就用這個版本吧
+
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/github_releasse_page.png)
+
+如果你找不到，那就點擊這個連結吧[SwiftyBeaver_releases]
 
 
-因此呢接下來我們直接套用，會變成下面這樣
-總之呢，之後帶入會變成這樣。
+接下來我們直接看結果
+代入後會變成下面這樣
+
+
 
 ~~~swift
-// swift-tools-version:4.0.0
+// swift-tools-version:4.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "test_SPM",
+    name: "Library",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.11.4"),
-          
+        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", from: "1.5.2"),
+
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "test_SPM",
-            dependencies: ["SQLite"]),
+            name: "Library",
+            dependencies: ["SwiftyBeaver"]),
     ]
 )
-
-
 ~~~
 
 
 之後再打開你的command
-在你的<project_dir>目錄下
-輸入
 
->swift package update <br>
-{:message}
-之後會變成如下圖這樣，沒有跳出錯誤訊息，代表成功囉～
-
-之後繼續厦command
+在你的 project_dir/Library 的目錄下command
 
 >swift package update <br>
 >swift build <br>
 >swift package generate-xcodeproj <br>
 {:message}
 
-之後就能直接使用了
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/command_all.png)
 
 
+之後會出現 ***Library.xcodeproj*** 這個檔案
 
-## Header 2
+然後開啟剛剛創建的Single View Controller
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+test_SPM這個專案
+
+將***Library.xcodeproj***拉到左邊那塊
+
+如下圖
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/drag_to_proj.png)
+
+然後我們還要設定一下link
+
+點擊左上方的test_SPM就可以到此畫面
+
+然後設定連結
+
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/link_framework.png)
+
+之後就成功囉～
+
+![](/assets/img/2018-04-06-IOS-package-manager/SPM/success_import.png)
+
 
 ## 參考連結
-[Vapor]: https://github.com/vapor/vapor
+[Enjoy Your Coding 使用 Swift Package Manager 管理套件]
+
+
+
 [Charts]: https://github.com/danielgindi/Charts
-[Charts_releases]: https://github.com/danielgindi/Charts/releases
+[SwiftyBeaver]: https://github.com/SwiftyBeaver/SwiftyBeaver
+[SwiftyBeaver_releases]: https://github.com/SwiftyBeaver/SwiftyBeaver/releases
 [Enjoy Your Coding 使用 Swift Package Manager 管理套件]: https://sudo.tw/article/xcode-ios-swift-package-manager
