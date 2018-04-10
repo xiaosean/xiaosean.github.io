@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Line Chatbot 教學及簡單使用Message API 發送及回覆。
+title: Line Chatbot 教學及簡單使用Message API 發送及回覆。(未完成)
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
