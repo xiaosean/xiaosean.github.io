@@ -106,11 +106,15 @@ https://developers.line.me/en/services/messaging-api/
 ![](/assets/img/2018-04-10-LINE-ChatBot/Chatbot-info-mask.png)
 
 
-這個頁面有兩個重要的資訊是
+這個頁面有幾個個重要的資訊是
 
 - Channel ID
 
 - Channel secret
+
+- QR Code
+  
+  先拿起你的手機掃描條碼成為好友，之後才能夠順利的進行測試。
 
 - Channel access token(long lived)
 
@@ -126,18 +130,116 @@ https://developers.line.me/en/services/messaging-api/
 
 
 
-
-
-
 # 實際應用
 
+在一切開始之前
+
+我看了看文件
+
+>The Messaging API allows for data to be passed between the server of your bot application and the LINE Platform. When a user sends your bot a message, a webhook is triggered and the LINE Platform sends a request to your webhook URL. Your server then sends a request to the LINE Platform to respond to the user. Requests are sent over HTTPS in JSON format.
+{:.message}
+
+重點應該是這兩句拉
+- LINE Platform sends a request to your webhook URL
+- Requests are sent over HTTPS in JSON format.
+
+你要給一個URL => webhook的服務
+
+你的網址要是https
+
+原來要server呢（（廢話
+
+
+然後再看下面這個Link  
+
+https://developers.line.me/en/docs/messaging-api/building-bot/
+
+那官方是推薦使用 [Heroku]
+
+咳。。。 我先來去寫另一篇文章好了 Flask + Heroku
 
 
 
-## 參考連結
+
+接下來我們點擊進[Line Bot SDK Github]
+
+看看文件怎麼寫
+
+首先我們照著文件安裝
+
+>pip install line-bot-sdk
+{:.message}
+
+將github上的**Synopsis**部分
+複製貼上到一個.py檔案
+
+
+
+
+~~~python
+from flask import Flask, request, abort
+
+from linebot import (
+    LineBotApi, WebhookHandler
+)
+from linebot.exceptions import (
+    InvalidSignatureError
+)
+from linebot.models import (
+    MessageEvent, TextMessage, TextSendMessage,
+)
+
+app = Flask(__name__)
+
+line_bot_api = LineBotApi('YOUR_CHANNEL_ACCESS_TOKEN')
+handler = WebhookHandler('YOUR_CHANNEL_SECRET')
+
+
+@app.route("/callback", methods=['POST'])
+def callback():
+    # get X-Line-Signature header value
+    signature = request.headers['X-Line-Signature']
+
+    # get request body as text
+    body = request.get_data(as_text=True)
+    app.logger.info("Request body: " + body)
+
+    # handle webhook body
+    try:
+        handler.handle(body, signature)
+    except InvalidSignatureError:
+        abort(400)
+
+    return 'OK'
+
+
+@handler.add(MessageEvent, message=TextMessage)
+def handle_message(event):
+    line_bot_api.reply_message(
+        event.reply_token,
+        TextSendMessage(text=event.message.text))
+
+
+if __name__ == "__main__":
+    app.run()
+~~~
+
+之後將 15, 16行的下方兩個參數，替換為自己的CHANNEL TOKEN
+>line_bot_api = LineBotApi('YOUR_CHANNEL_ACCESS_TOKEN')
+>handler = WebhookHandler('YOUR_CHANNEL_SECRET')
+{:.message}
+
+
+===========未完待續，我先去架個flask + Heroku
+
+
+
+# 參考連結
 Line Message API - https://developers.line.me/en/services/messaging-api/
 
 [方案介紹]: https://at.line.me/tw/plan
 [註冊帳號]: https://developers.line.me/en/
 [Line Developer]: https://developers.line.me/en/
 [Line Message API]: https://developers.line.me/en/services/messaging-api/
+[Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
+[Heroku]: https://www.heroku.com/
