@@ -22,27 +22,14 @@ image: /assets/img/default.jpg
 # (Optional) Each post can have zero or more categories, and zero or more tags.
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
-categories: [Chatbot]
+categories: [Server]
 tags: [example, Line]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-透過Line ChatBot實現一些推播以及回覆的功能
-
-前言：主要是因為要教台科大電腦研習社的社課，想了想我覺得有趣又會想要學的應用，
-於是就想到**Line ChatBot**了
-
-目的：希望最終可以有Taxi go的那種圖形介面。因此我們要有發送訊息以及回覆訊息的功能。
-
-那我們看一下文件
-
-https://developers.line.me/en/services/messaging-api/ 
-
-我們希望要有發送訊息以及回覆訊息的功能，
-
-因此我們要選擇使用 **Message API**
-![](/assets/img/2018-04-10-LINE-ChatBot/push_and_reply.png)
-上圖轉載自[Line Message API]
+透過Haruku結合Flask，
+來架設一個簡單的伺服器，
+與下一篇的Line ChatBot做結合
 
 
 
@@ -211,7 +198,6 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   >pipenv update
  
 
-
   啟動環境！！
 
   >pipenv shell
@@ -244,6 +230,9 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   看看是否有成功架設
 
   成功圖如下
+  
+  ![](/assets/img/2018-04-11-Flask-Heroku/heroku_local_web.png)
+
 
 
 
@@ -325,6 +314,8 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
   看到結果
 
+  ![](/assets/img/2018-04-11-Flask-Heroku/install_flask.png)
+  
 
 
 
@@ -340,6 +331,7 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   import requests
 
   如果是使用Flask，就隨便吧。
+
 
 # 如果要更新網路上的server
 
@@ -364,6 +356,7 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
   有https的網址喔～～～
 
+  ![](/assets/img/2018-04-11-Flask-Heroku/output_hello_world.png)
 
 
 # 其他指令
