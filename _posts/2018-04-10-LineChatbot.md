@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Line Chatbot 架設教學。
+title: 透過Python 架設 Line Chatbot 教學。
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -54,7 +54,7 @@ Heroku
   - 有https的網址
   - 自己的主機可以不用開著
   - 可以將code丟上去，在開著他的伺服器跑你的程式碼
-  
+
   教學文章：[Flask結合Heroku教學]
 
 
