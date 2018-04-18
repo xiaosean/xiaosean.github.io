@@ -22,14 +22,29 @@ image: /assets/img/default.jpg
 # (Optional) Each post can have zero or more categories, and zero or more tags.
 # The difference is that categories will be part of the URL, while tags will not.
 # E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
-categories: [Server]
+categories: [SERVER]
 tags: [example, Line]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-透過Haruku結合Flask，
+透過Heroku結合Flask，
 來架設一個簡單的伺服器，
 與下一篇的Line ChatBot做結合
+有興趣的可以參考 - [Python使用Line Chatbot]
+
+# 介紹
+
+Heroku是一個支援多種程式語言的雲平台即服務。
+
+他的想法就是將程式碼推播上去，
+
+那邊的伺服器就會幫你處理好一切，
+
+這時候就會給一個https的網址。
+
+你的其他應用都可以呼叫這網址做一些事情，
+
+如API, Webhook等等。
 
 
 
@@ -56,71 +71,63 @@ Minimum 8 characters: Letters, numbers, and/or symbols
 
 ![](/assets/img/2018-04-11-Flask-Heroku/app_homepage.png)
 
-點擊**create new app**
-
-之後App name隨便打
 
 然後我開始參考下面官方文檔連結來做安裝
+
 https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
 
-![](/assets/img/2018-04-11-Flask-Heroku/Install-instruction.png)
+到下面的網頁
+https://devcenter.heroku.com/articles/getting-started-with-python#set-up
 
--- a free Heroku account.
+點擊此Download the Heroku CLI下載
 
-  我們剛剛已經創建好了
--- Python version 3.6 installed locally - see the installation guides for OS X, Windows, and Linux.
-  到下面的網頁
-  https://devcenter.heroku.com/articles/getting-started-with-python#set-up
+選擇你的作業系統進行安裝
 
-  點擊此Download the Heroku CLI下載
+>如果沒有git的話，記得在安裝的時候點擊git的選項安裝
+{.leading}
 
-  選擇你的作業系統進行安裝
+![](/assets/img/2018-04-11-Flask-Heroku/Download-the-Heroku-CLI.png)
 
-  >如果沒有git的話，記得在安裝的時候點擊git的選項安裝
-  {.leading}
-
-  ![](/assets/img/2018-04-11-Flask-Heroku/Download-the-Heroku-CLI.png)
-
-  之後我們就可以使用command呼叫heroku的指令
-
--- Pipenv installed locally. Accomplish this by running pip install pipenv.
+之後我們就可以使用command呼叫heroku的指令
 
   
-  按照官方文檔是建議使用他們已經有的example
+按照官方文檔是建議使用他們已經有的example
 
-  我們再加以更改會比較簡單
+我們再加以更改會比較簡單
 
-  實際做法是用command呼叫這2行
-
-
-  >git clone https://github.com/heroku/python-getting-started.git
-
-  >cd python-getting-started
-
-  >heroku create
-
-  第一次可能需要輸入帳號密碼
-  之後就會跳出下列視窗說 完成～
-  會出現類似下面這段字樣
-  https://git.heroku.com/calm-dawn-52508.git
-  而後面的 **calm-dawn-52508**
-  就是主機名稱
-
-  那我們先把目前的程式碼推播上去看看
-  >git push heroku master
-
-  成功會長的像下面這樣
-
-  接下來我們呼叫下面這個指令 
+實際做法是用command呼叫這2行
 
 
-  >heroku ps:scale web=1
+>git clone https://github.com/heroku/python-getting-started.git
 
-  下面這行會開啟網站
+>cd python-getting-started
 
-  >heroku open
+遠端創建一個虛擬機器
 
+>heroku create
+
+第一次可能需要輸入帳號密碼
+之後就會跳出下列視窗說 完成～
+會出現類似下面這段字樣
+https://git.heroku.com/calm-dawn-52508.git
+而後面的 **calm-dawn-52508**
+就是主機名稱
+
+那我們先把目前的程式碼推播上去看看
+>git push heroku master
+
+成功會長的像下面這樣
+
+接下來我們呼叫下面這個指令 
+
+>heroku ps:scale web=1
+
+下面這行會開啟網站
+
+>heroku open
+
+完成 example範例！！！
 <!--   那照著教學走 他會說下一步我們看log
 
   我也是黑人問號?????
@@ -129,19 +136,19 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
   >heroku logs --tail
  -->
-  接下來把程式碼跑在我們的機器
-  我們的機器是這個 calm-dawn-52508
 
+<!-- 接下來把程式碼跑在我們的機器
 
-  >heroku git:remote -a <your-app-name>
- 
+我的機器是這個 calm-dawn-52508
+
+>heroku git:remote -a <your-app-name>
 
   所以會變成類似下面這樣， 後面的container名稱自己要改！
-  >heroku git:remote -a calm-dawn-52508
+  >heroku git:remote -a calm-dawn-52508 -->
  
 
 
-# Procfile - 切換python的專案
+# Procfile -設定/切換python的專案
 
   Use a Procfile, a text file in the root directory of your application, to explicitly declare what command should be executed to start your app.
   The Procfile in the example app you deployed looks like this:
@@ -155,7 +162,7 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   - gettingstarted
   - hello
 
-  這邊可以設定要開啟哪個資料夾，下面這樣就是說我開啟的是如gettingstarted資料夾
+  這邊可以設定要開啟哪個資料夾，下面這樣就是說我開啟的如gettingstarted資料夾
 
   >web: gunicorn gettingstarted.wsgi --log-file -
  
@@ -203,9 +210,17 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   >pipenv shell
  
 
-# 首次在本地端開啟Server
+# 安裝需要的package
+  
+  >pipenv install requests
+  
+  就可以在.py檔案中使用
 
-  run collectstatic
+  import requests
+
+
+
+# 首次在本地端開啟Server
 
 
   >python manage.py collectstatic
@@ -234,16 +249,6 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   ![](/assets/img/2018-04-11-Flask-Heroku/heroku_local_web.png)
 
 
-
-
-# 之後如果要開local端 server
-  
-  需要呼叫的指令
-
-  >pipenv shell
-
-  >heroku local web
-
  
 
 # 更換成我們自己的server
@@ -266,27 +271,21 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
   那裡面的內容打這樣
 
-  >from flask import Flask
+~~~python
 
-  >app = Flask(__name__)
+from flask import Flask
 
-  >
+app = Flask(__name__)
 
-  >@app.route('/')
+@app.route('/')
+def hello_world():
+  return 'Hello, World!'
 
-  >def hello_world():
+@app.route('/test')
+  def test_page():
+    return 'In test page!'
 
-  >    return 'Hello, World!'
-
-  >
-
-  >@app.route('/test')
-
-  >def test_page():
-
-  >  return 'In test page!'
-
- 
+~~~
   
   之後修改procfile將它改成下面這樣
 
@@ -298,7 +297,7 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   >heroku local web
  
 
-  如果出現問題，請至下面**安裝package方式**
+  如果出現問題，請至上面**安裝package方式**
 
   安裝flask
 
@@ -317,20 +316,14 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
   ![](/assets/img/2018-04-11-Flask-Heroku/install_flask.png)
   
 
-
-
-# 安裝package方式
+# 之後如果要開local端的Server
   
-  >pipenv install requests
- 
+  需要呼叫的指令
 
-  如果是使用Django，可以在給的範例專案底下的views.py
-  
-  hello/views.py
+  >pipenv shell
 
-  import requests
+  >heroku local web
 
-  如果是使用Flask，就隨便吧。
 
 
 # 如果要更新網路上的server
@@ -341,7 +334,8 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
  
 
-  更新
+  要使用git更新
+
   >git add .
 
   >git commit -m "本次更新註解"
@@ -367,9 +361,9 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
  
 
   可以看到目前機器狀況
+ 
   >heroku ps
  
-
 
   遠端關機
 
@@ -408,5 +402,6 @@ https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 [Flask补充系列–将应用部署在Heroku上]:http://www.bjhee.com/flask-heroku.html
 [Heroku]: https://www.heroku.com/
 [Flask Quick Start]:http://flask.pocoo.org/docs/0.12/quickstart/
+[Python使用Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
 
 <!--Heroku=> Xi-s-000 -->
