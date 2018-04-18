@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: Python Flask 結合 Heroku 架一個Https的伺服器
+title: Python Flask 結合 Heroku 部署Https的伺服器
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -30,7 +30,7 @@ tags: [example, Line]
 透過Heroku結合Flask，
 來架設一個簡單的伺服器，
 與下一篇的Line ChatBot做結合
-有興趣的可以參考 - [Python使用Line Chatbot]
+有興趣的可以參考 - [透過Python架設Line Chatbot]
 
 # 介紹
 
@@ -46,7 +46,15 @@ Heroku是一個支援多種程式語言的雲平台即服務。
 
 如API, Webhook等等。
 
+# 流程說明
 
+1.註冊帳號
+2.下載
+3.執行範例，可瞭解到
+  - heroku 架設
+  - Procfile
+  - pipenv
+4.更改為自己的flask啟動
 
 # 註冊帳號
 
@@ -76,6 +84,7 @@ Minimum 8 characters: Letters, numbers, and/or symbols
 
 https://devcenter.heroku.com/articles/getting-started-with-python#introduction
 
+# 下載
 
 到下面的網頁
 https://devcenter.heroku.com/articles/getting-started-with-python#set-up
@@ -91,7 +100,9 @@ https://devcenter.heroku.com/articles/getting-started-with-python#set-up
 
 之後我們就可以使用command呼叫heroku的指令
 
-  
+
+# 執行範例
+
 按照官方文檔是建議使用他們已經有的example
 
 我們再加以更改會比較簡單
@@ -108,13 +119,18 @@ https://devcenter.heroku.com/articles/getting-started-with-python#set-up
 >heroku create
 
 第一次可能需要輸入帳號密碼
+
 之後就會跳出下列視窗說 完成～
+
 會出現類似下面這段字樣
+
 https://git.heroku.com/calm-dawn-52508.git
+
 而後面的 **calm-dawn-52508**
+
 就是主機名稱
 
-那我們先把目前的程式碼推播上去看看
+那我們先把目前範例的程式碼推播上去看看
 >git push heroku master
 
 成功會長的像下面這樣
@@ -222,7 +238,8 @@ https://git.heroku.com/calm-dawn-52508.git
 
 # 首次在本地端開啟Server
 
-
+  如果是要跑Django的話，如果不清楚的話都跑。
+  
   >python manage.py collectstatic
  
 
@@ -264,9 +281,10 @@ https://git.heroku.com/calm-dawn-52508.git
 
   那我們要自己再新建一個Flask的專案
   
-  [Flask Quick Start]
+  看詳細：[Flask Quick Start]
 
   我們可以先用簡單版的，創建一個.py檔案
+
   檔名叫quick_flask.py好了
 
   那裡面的內容打這樣
@@ -287,7 +305,7 @@ def hello_world():
 
 ~~~
   
-  之後修改procfile將它改成下面這樣
+  之後修改procfile的檔案將它改成下面這樣
 
   >web: gunicorn quick_flask:app
  
@@ -297,7 +315,7 @@ def hello_world():
   >heroku local web
  
 
-  如果出現問題，請至上面**安裝package方式**
+  如果出現問題，詳細請至上面**安裝package方式**
 
   安裝flask
 
@@ -355,7 +373,7 @@ def hello_world():
 
 # 其他指令
 
-  可以開啟heroku的測試環境，可用來檢查是否正確install library
+  可以開啟heroku的測試環境的交互式命令視窗，可用來檢查是否正確install library
 
   >heroku run python manage.py shell
  
@@ -375,7 +393,7 @@ def hello_world():
   >heroku ps:scale web=1
  
 
-  設定可以push到自己的container
+  設定可以push到自己的container（（如果之前做過heroku create的話 可以無視這個
 
   >heroku git:remote -a <your app name>
  
@@ -402,6 +420,6 @@ def hello_world():
 [Flask补充系列–将应用部署在Heroku上]:http://www.bjhee.com/flask-heroku.html
 [Heroku]: https://www.heroku.com/
 [Flask Quick Start]:http://flask.pocoo.org/docs/0.12/quickstart/
-[Python使用Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
+[透過Python架設Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
 
 <!--Heroku=> Xi-s-000 -->

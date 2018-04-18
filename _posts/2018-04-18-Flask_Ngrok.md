@@ -30,7 +30,7 @@ tags: [example, Line]
 透過Ngrok結合Flask，
 來架設一個簡單的伺服器，
 與下一篇的Line ChatBot做結合
-有興趣的可以參考 - [Python使用Line Chatbot]
+有興趣的可以參考 - [透過Python架設Line Chatbot]
 
 
 
@@ -188,7 +188,7 @@ python flask_offline.py
 [Ngrok]
 
 [Ngrok]: https://ngrok.com/
-[Python使用Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
+[透過Python架設Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
 
 
 <!--ngrok=> xi-s-000 -->
