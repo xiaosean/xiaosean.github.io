@@ -55,11 +55,8 @@ https://developers.line.me/en/docs/messaging-api/reference/
 
 https://developers.line.me/en/faq/
 
-# User ID
 
-
-
-# 如何獲取User ID
+# User ID - 如何獲取 （（如果不想特定推播給單一使用者可略過
 
 首先我們需要user id才能做推播
 
@@ -90,7 +87,7 @@ ID of the target recipient. Use a userId, groupId, or roomId value returned in a
 如下圖 我的user id 是 Ufeb-----------------
 
 
-# 推播
+# 推播 
 
 推播部分只要知道user id 就不需要特別架一個server了
 
@@ -116,13 +113,24 @@ Input:
     - Sticker
     - Imagemap
     - Template
-
+      - button - template
+      - Carousel - template
+      - Image Carousel - template
   Message objects 怎麼使用可以看這
   https://github.com/line/line-bot-sdk-python/blob/master/linebot/models/send_messages.py 
 
 實際操作在[Push message ipynb tutorial]中
 
-那我們在下面只貼出簡單的做展示
+比較常用的應該是template的呈現，如下圖
+
+Carousel-button
+
+ ![](/assets/img/2018-04-19-LINE-ChatBot-Usage/Carousel-button.png)
+
+
+
+
+那我們在下面只貼出簡單的做展示，程式碼使用方式的請至[Push message ipynb tutorial]
 
 Text:
 
@@ -158,12 +166,25 @@ except LineBotApiError as e:
     raise e
 ~~~
 
- ![](/assets/img/22018-04-19-LINE-ChatBot-Usage/Push_test.png)
+ 下圖為上述之程式碼展示。
+
+ ![](/assets/img/2018-04-19-LINE-ChatBot-Usage/Push_test.png)
+
+# Rich menu 待完成
+
+https://developers.line.me/en/docs/messaging-api/using-rich-menus/
+
+Two ways of creating rich menus
+
+You can create rich menus for your bot with the Messaging API or the LINE@ Manager (content management tool for LINE@ accounts). Both methods can be used at the same time.
+
+Rich menus that are linked to a specific user via the Messaging API will override the rich menu set in the LINE@ Manager.
 
 
 
 # 參考連結
 Line Message API - https://developers.line.me/en/services/messaging-api/
+[LINE Developer Day 見聞 — 火紅的 BOT API]
 
 [方案介紹]: https://at.line.me/tw/plan
 [註冊帳號]: https://developers.line.me/en/
@@ -172,4 +193,5 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
 [透過Python架設Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
 [Push message ipynb tutorial]:https://github.com/xiaosean/Line_tutorial/blob/master/Push_tutorial.ipynb
+[LINE Developer Day 見聞 — 火紅的 BOT API]:https://medium.com/@yurenju/line-developer-day-%E8%A6%8B%E8%81%9E-%E7%81%AB%E7%B4%85%E7%9A%84-bot-api-bfbf1b97b0b4
 
