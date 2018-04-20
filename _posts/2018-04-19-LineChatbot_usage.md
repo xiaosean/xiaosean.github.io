@@ -117,12 +117,12 @@ Input:
     - Imagemap
     - Template
 
-  怎麼使用可以看這
+  Message objects 怎麼使用可以看這
   https://github.com/line/line-bot-sdk-python/blob/master/linebot/models/send_messages.py 
 
-實際操作在jupyter notebook中
+實際操作在[Push message ipynb tutorial]中
 
-那我們在下面只貼出幾個做展示
+那我們在下面只貼出簡單的做展示
 
 Text:
 
@@ -171,5 +171,5 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Line Message API]: https://developers.line.me/en/services/messaging-api/
 [Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
 [透過Python架設Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
-
+[Push message ipynb tutorial]:https://github.com/xiaosean/Line_tutorial/blob/master/Push_tutorial.ipynb
 
