@@ -185,6 +185,7 @@ Rich menus that are linked to a specific user via the Messaging API will overrid
 # 參考連結
 Line Message API - https://developers.line.me/en/services/messaging-api/
 [LINE Developer Day 見聞 — 火紅的 BOT API]
+[Day15[Line ChatBot]Messaging types下集]
 
 [方案介紹]: https://at.line.me/tw/plan
 [註冊帳號]: https://developers.line.me/en/
@@ -194,4 +195,5 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [透過Python架設Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
 [Push message ipynb tutorial]:https://github.com/xiaosean/Line_tutorial/blob/master/Push_tutorial.ipynb
 [LINE Developer Day 見聞 — 火紅的 BOT API]:https://medium.com/@yurenju/line-developer-day-%E8%A6%8B%E8%81%9E-%E7%81%AB%E7%B4%85%E7%9A%84-bot-api-bfbf1b97b0b4
+[Day15[Line ChatBot]Messaging types下集]:https://ithelp.ithome.com.tw/articles/10195640?sc=iThomeR
 
