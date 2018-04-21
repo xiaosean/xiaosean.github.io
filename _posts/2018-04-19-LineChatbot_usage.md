@@ -56,6 +56,26 @@ https://developers.line.me/en/docs/messaging-api/reference/
 https://developers.line.me/en/faq/
 
 
+# Line Chatbot
+  可以透過不寫程式來達成一些功能
+
+  https://admin-official.line.me/
+
+    - 預約傳送訊息
+    - 加入好友的歡迎訊息
+
+      這部分也可透過寫程式時做follow event.      
+
+    - 圖文選單
+
+      這功能相當好用，
+      可以再視窗下方建立好幾顆功能，
+      可透過點擊後回傳文字，結合Reply使用。
+
+
+  那下面主要是介紹寫程式可完成的功能。
+
+
 # User ID - 如何獲取 （（如果不想特定推播給單一使用者可略過
 
 首先我們需要user id才能做推播
@@ -110,7 +130,7 @@ Input:
     - Video
     - Audio
     - Location
-    - Sticker
+    - Sticker(貼圖)
     - Imagemap
     - Template
       - button - template
@@ -170,7 +190,74 @@ except LineBotApiError as e:
 
  ![](/assets/img/2018-04-19-LINE-ChatBot-Usage/Push_test.png)
 
-# Rich menu 待完成
+# Temple Action - Template樣板中能達到的功能
+  - MessageTemplateAction
+
+    label參數 - 顯示在選項中的文字
+    text參數 - 點擊該選項後，會發送出什麼樣的文字訊息
+
+  - PostbackTemplateAction
+
+    特色是除了text/label的參數欄，還有data的參數欄<br>
+    可將text設定為None，達成用戶不用回傳文字，但是卻可以回傳資料的功能。<br>
+  
+  - URITemplateAction
+
+    特色是除了text/label的參數欄，還有uri的參數欄<br>
+    點選到該按鈕會連結至某個網址。
+
+  - DatetimePickerTemplateAction
+
+    這功能比較新，點選後會出現picker可以選擇日期/時間。
+
+  - ImagemapAction
+
+    下面兩個主要是搭判Imagemap的template使用，<br>
+    特點為有了Area的參數，可設定一個區塊。
+    
+    - MessageImagemapAction
+      可設定點選到圖片哪個區塊會回傳什麼樣的文字。
+
+    - URIImagemapAction
+      可設定點選到圖片哪個區塊會連結至某個網址。
+
+實際操作在[Push message ipynb tutorial]中
+
+# Reply
+  
+  處理回覆訊息有幾種方式/事件
+  - MessageEvent
+
+    只要對方發送訊息，<br>
+    就會進到這個function去做處理，<br>
+    對於初學者來說，<br>
+    大多的處理都可以在這完成，<br>
+    透過if-else去做就可以完成很多功能。<br>
+
+  - PostbackEvent  
+
+    這邊是專門處理經由PostbackTemplateAction所發送出來的請求<br>
+    [Reply example code]
+
+  - FollowEvent
+
+    當追蹤的時候會觸發
+    [follow event example]
+
+  - UnfollowEvent
+    
+    當取消追蹤的時候會觸發
+
+  - JoinEvent
+  - LeaveEvent
+  - BeaconEvent
+    這功能建議看這篇[LINE Developer Day 見聞 — 火紅的 BOT API]
+
+
+
+實際操作在[Reply example code]中
+
+# Rich menu
 
 https://developers.line.me/en/docs/messaging-api/using-rich-menus/
 
@@ -180,12 +267,25 @@ You can create rich menus for your bot with the Messaging API or the LINE@ Manag
 
 Rich menus that are linked to a specific user via the Messaging API will override the rich menu set in the LINE@ Manager.
 
+有兩種方式可以完成
+  - 在網頁上設定好，我認為這已經做得很方便了。
+
+    https://admin-official.line.me/
+
+  - 使用API設定
+    
+    我實際使用API時，連RichMenu都不能import<br>
+    奇怪 他這unittest怎麼會過<br>
+    之後等勇者嘗試<br>
+    https://github.com/line/line-bot-sdk-python/blob/master/tests/api/test_rich_menu.py
 
 
 # 參考連結
 Line Message API - https://developers.line.me/en/services/messaging-api/
+
 [LINE Developer Day 見聞 — 火紅的 BOT API]
-[Day15[Line ChatBot]Messaging types下集]
+
+[Day15 Line ChatBot Messaging types下集]
 
 [方案介紹]: https://at.line.me/tw/plan
 [註冊帳號]: https://developers.line.me/en/
@@ -194,6 +294,8 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
 [透過Python架設Line Chatbot]:http://www.xiaosean.website/server/2018/04/10/LineChatbot/
 [Push message ipynb tutorial]:https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/push_tutorial.ipynb
+[Reply example code]:https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/line_chatbot_reply.py
+[follow event example]:https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/line_chatbot_follow.py
 [LINE Developer Day 見聞 — 火紅的 BOT API]:https://medium.com/@yurenju/line-developer-day-%E8%A6%8B%E8%81%9E-%E7%81%AB%E7%B4%85%E7%9A%84-bot-api-bfbf1b97b0b4
-[Day15[Line ChatBot]Messaging types下集]:https://ithelp.ithome.com.tw/articles/10195640?sc=iThomeR
+[Day15 Line ChatBot Messaging types下集]:https://ithelp.ithome.com.tw/articles/10195640?sc=iThomeR
 
