@@ -49,11 +49,15 @@ Heroku是一個支援多種程式語言的雲平台即服務。
 # 流程說明
 
 1.註冊帳號
+
 2.下載
+
 3.執行範例，可瞭解到
+
   - heroku 架設
   - Procfile
   - pipenv
+
 4.更改為自己的flask啟動
 
 # 註冊帳號
@@ -151,7 +155,9 @@ https://git.heroku.com/calm-dawn-52508.git
   不過教程這樣寫 我們照做吧
 
   >heroku logs --tail
+
  -->
+
 
 <!-- 接下來把程式碼跑在我們的機器
 
