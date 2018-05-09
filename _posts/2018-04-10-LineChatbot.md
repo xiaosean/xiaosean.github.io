@@ -149,7 +149,7 @@ Ngrok
   這個token是之後串接Message API會需要的
 
 
->Channel ID 以及 Channel secret 這兩組號碼要保存好，之後要填入到API中。
+>Channel ID 以及 Channel access token 這兩組號碼要保存好，之後要填入到API中。
 {:.message}
 
 
