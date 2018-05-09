@@ -146,11 +146,7 @@ Ngrok
 
 - Channel access token(long lived)
 
-  這個我覺得應該有他的功用
-
-  不過我目前只看到有人用這個token和EasyChat做整合
-
-  不清楚呼叫api有沒有影響
+  這個token是之後串接Message API會需要的
 
 
 >Channel ID 以及 Channel secret 這兩組號碼要保存好，之後要填入到API中。
