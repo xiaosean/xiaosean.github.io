@@ -300,7 +300,8 @@ https://github.com/line/line-bot-sdk-python/issues/37
 只要可以像下面這樣正常回答你說過的話就好
 
 
-![](/assets/img/2018-04-10-LINE-ChatBot/Line_ChatBot_Reply.png)
+<img src="/assets/img/2018-04-10-LINE-ChatBot/Line_ChatBot_Reply.png" style="width:80%; border-radius:10px; padding:5px 0 5px 0;">
+
 
 
 其他的使用方法會寫在另一篇POST
