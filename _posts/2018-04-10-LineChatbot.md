@@ -259,6 +259,7 @@ if __name__ == "__main__":
 
 之後將 15, 16行的下方兩個參數，替換為自己的CHANNEL TOKEN
 >line_bot_api = LineBotApi('YOUR_CHANNEL_ACCESS_TOKEN')
+>
 >handler = WebhookHandler('YOUR_CHANNEL_SECRET')
 {:.message}
 
