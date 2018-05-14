@@ -27,16 +27,14 @@ title:                 XiaoSean
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  Hi, I am Xiao Sean. Share learning, almost use python programming.
 
 # A shorter description for the sidebar.
 tagline:               >
   記錄學習的點點滴滴
 
 # A list of keywords for your blog.
-keywords:              []
+keywords:              [python, programming, developer, student, NTUST, taiwan tech]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -48,7 +46,7 @@ author:
   email:               <xiaosean5408@gmail.com>
   picture:  /assets/img/me.jpg
   social:
-    facebook:        xiaosean000
+    facebook: xiaosean000
     github:  xiaosean
     email:    mailto:xiaosean5408@gmail.com
 
@@ -195,6 +193,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-seo-tag
 
 # Theme
 # ---------------------------------------------------------------------------------------

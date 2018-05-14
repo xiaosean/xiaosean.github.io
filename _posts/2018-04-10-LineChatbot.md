@@ -8,7 +8,7 @@ title: 透過Python 架設 Line Chatbot 教學。
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  使用Line Develop SDK 建置一個簡單的 Line Chatbot
+  使用Line Develop SDK 的Python Line bot sdk 建置一個簡單的 Line Chatbot的環境教學。
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
