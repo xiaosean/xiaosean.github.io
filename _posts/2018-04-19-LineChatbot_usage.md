@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: 透過Python 架設 Line Chatbot 教學-應用篇。
+title: 透過Python Line Chatbot 建立聊天機器人 - 應用篇。
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

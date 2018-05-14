@@ -3,7 +3,7 @@
 layout: post
 
 # The title of your post
-title: 透過Python 架設 Line Chatbot 教學。
+title: 透過Python Line Chatbot 建立聊天機器人 - 基礎篇。
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
@@ -304,7 +304,8 @@ https://github.com/line/line-bot-sdk-python/issues/37
 
 
 
-其他的使用方法會寫在另一篇POST
+其他的使用方法會寫在[Line chatbot 應用篇]
+
 
 
 
@@ -322,3 +323,4 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Heroku]: https://www.heroku.com/
 [Flask結合Heroku教學]:http://www.xiaosean.website/server/2018/04/11/Flash_Heroku/
 [Flask結合Ngrok教學]:http://www.xiaosean.website/server/2018/04/18/Flask_Ngrok/
+[Line chatbot 應用篇]:http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
