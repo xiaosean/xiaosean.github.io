@@ -293,14 +293,12 @@ mysterious-stream-19548
 
 接下來會用此示範
 
-至於 Webhook URL Requires SSL 的Verify 其實可以不用管他
+至於 Webhook URL Requires SSL 的Verify 其實可以不用管他 [Line chatbot issue 31]
 
-https://github.com/line/line-bot-sdk-python/issues/37
 
 只要可以像下面這樣正常回答你說過的話就好
 
-![](/assets/img/2018-04-10-LINE-ChatBot/Line-ChatBot-Reply.png.png)
-
+![](/assets/img/2018-04-10-LINE-ChatBot/Line-ChatBot-Reply.png)
 
 
 其他的使用方法會寫在[Line chatbot 應用篇]
@@ -323,3 +321,5 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Flask結合Heroku教學]:https://www.xiaosean.website/server/2018/04/11/Flash_Heroku/
 [Flask結合Ngrok教學]:https://www.xiaosean.website/server/2018/04/18/Flask_Ngrok/
 [Line chatbot 應用篇]:https://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
+[Line chatbot issue 31]:https://github.com/line/line-bot-sdk-python/issues/37
+
