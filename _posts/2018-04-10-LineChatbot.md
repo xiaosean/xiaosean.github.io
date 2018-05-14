@@ -299,8 +299,7 @@ https://github.com/line/line-bot-sdk-python/issues/37
 
 只要可以像下面這樣正常回答你說過的話就好
 
-
-<img src="/assets/img/2018-04-10-LINE-ChatBot/Line_ChatBot_Reply.png" style="width:80%; border-radius:10px; padding:5px 0 5px 0;">
+![](/assets/img/2018-04-10-LINE-ChatBot/Line-ChatBot-Reply.png.png)
 
 
 
@@ -321,6 +320,6 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Line Message API]: https://developers.line.me/en/services/messaging-api/
 [Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
 [Heroku]: https://www.heroku.com/
-[Flask結合Heroku教學]:http://www.xiaosean.website/server/2018/04/11/Flash_Heroku/
-[Flask結合Ngrok教學]:http://www.xiaosean.website/server/2018/04/18/Flask_Ngrok/
-[Line chatbot 應用篇]:http://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
+[Flask結合Heroku教學]:https://www.xiaosean.website/server/2018/04/11/Flash_Heroku/
+[Flask結合Ngrok教學]:https://www.xiaosean.website/server/2018/04/18/Flask_Ngrok/
+[Line chatbot 應用篇]:https://www.xiaosean.website/chatbot/2018/04/19/LineChatbot_usage/
