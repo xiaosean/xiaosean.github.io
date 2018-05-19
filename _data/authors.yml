@@ -5,6 +5,7 @@ author1:
   # Replace <...> with your own (remove the < >)
   name:              <Lin> <Yong-Xiang>
   email:             <xiaosean5408@gmail.com>
+  LinkedIn: https://www.linkedin.com/in/%E8%A9%A0%E7%BF%94-%E6%9E%97-304307ab/
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -31,6 +32,8 @@ author1:
     facebook:        xiaosean000
     github:          xiaosean
     email:           mailto:<xiaosean5408@gmail.com>
+    LinkedIn: https://www.linkedin.com/in/%E8%A9%A0%E7%BF%94-%E6%9E%97-304307ab/
+
     # rss:             https://<url>/feed.xml
     # google:          <number>
     # vk:              <username>
