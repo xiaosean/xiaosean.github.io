@@ -34,7 +34,7 @@ tagline:               >
   記錄學習的點點滴滴
 
 # A list of keywords for your blog.
-keywords:              [python, programming, developer, student, NTUST, Taiwan tech]
+keywords:              [python, programming, developer, student, NTUST, Taiwan tech, deep learning]
 
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
@@ -89,7 +89,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                xiaosean
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
