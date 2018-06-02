@@ -293,7 +293,7 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Line Developer]: https://developers.line.me/en/
 [Line Message API]: https://developers.line.me/en/services/messaging-api/
 [Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
-[透過Python架設Line Chatbot]:https://www.xiaosean.github.io/chatbot/2018/04/10/LineChatbot/
+[透過Python架設Line Chatbot]:https://xiaosean.github.io/chatbot/2018/04/10/LineChatbot/
 [Push message ipynb tutorial]:https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/push_tutorial.ipynb
 [Reply example code]:https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/line_chatbot_reply.py
 [follow event example]:https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/line_chatbot_follow.py

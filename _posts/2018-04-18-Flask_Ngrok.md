@@ -188,7 +188,7 @@ python flask_offline.py
 [Ngrok]
 
 [Ngrok]: https://ngrok.com/
-[透過Python架設Line Chatbot]:https://www.xiaosean.github.io/server/2018/04/10/LineChatbot/
+[透過Python架設Line Chatbot]:https://xiaosean.github.io/server/2018/04/10/LineChatbot/
 
 
 <!--ngrok=> xi-s-000 -->
