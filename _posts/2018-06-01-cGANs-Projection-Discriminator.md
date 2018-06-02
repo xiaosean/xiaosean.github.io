@@ -4,6 +4,7 @@ layout: post
 
 # The title of your post
 title: cGANs with projection介紹 
+comments: true
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.

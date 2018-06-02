@@ -1,6 +1,8 @@
 ---
 # Posts need to have the `post` layout
 layout: post
+comments: true
+
 
 # The title of your post
 title: 透過Python Line Chatbot 建立聊天機器人 - 應用篇。

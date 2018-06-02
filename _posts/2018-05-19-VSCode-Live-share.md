@@ -1,6 +1,7 @@
 ---
 # Posts need to have the `post` layout
 layout: post
+comments: true
 
 # The title of your post
 title: VSCode live share 使用入門，從安裝到多人協作寫code

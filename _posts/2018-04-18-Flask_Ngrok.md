@@ -1,6 +1,8 @@
 ---
 # Posts need to have the `post` layout
 layout: post
+comments: true
+
 
 # The title of your post
 title: Python Flask 結合 Ngrok 架一個本地端的Https伺服器

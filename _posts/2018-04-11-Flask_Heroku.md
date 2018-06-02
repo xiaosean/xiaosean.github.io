@@ -1,6 +1,7 @@
 ---
 # Posts need to have the `post` layout
 layout: post
+comments: true
 
 # The title of your post
 title: Python Flask 結合 Heroku 部署Https的伺服器
