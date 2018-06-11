@@ -127,7 +127,7 @@ Y:
 V: 
 	denote the matrix consisting of row vector Vc
 	Embeding matrix - 64dim
-
+	
 
 ![](/assets/img/2018-06-01-cGANs-with-discriminator/concept2.png)
 
@@ -139,9 +139,25 @@ V:
 
 而我們知道類神經網路可以逼近function，
 
-因此我們可以希望藍色的框框最終能夠被訓練成紅色的框框的概念。
+因此我們可以希望藍色的框框有著紅色的框框的想法。
 
 那(6)的式子其實就是我們的model概念。
+
+2018/06/12 - update
+--
+今天我突然覺得這部份怪怪的，我覺得這部分一直都不是很能夠理解
+
+目前我的理解是
+
+其實這邊根本都不用管，
+
+你就想成是 one hot 的 y 對 embedding 的 V 拿到專屬於自己class的feature vector。
+
+左邊的這個φ(x)會學到要如何與右邊的各自的class vector來做到讓inner product變小。
+
+透過hinge loss來做一個評分依據。
+
+
 
 
 # 模型架構
