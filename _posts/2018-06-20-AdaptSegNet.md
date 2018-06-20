@@ -125,7 +125,7 @@ model pretrained on ImageNet省去一些時間。
 
 
 
-# model架構
+# Model架構
 
 ![](/assets/img/2018-06-20-AdaptSegNet/multi-model.png)
 
