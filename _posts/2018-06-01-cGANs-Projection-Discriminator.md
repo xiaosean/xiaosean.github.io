@@ -29,12 +29,11 @@ tags: [GAN]
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+ICLR 2018 paper
 
 作者有將程式碼釋出 [Github](https://github.com/pfnet-research/sngan_projection)
 
 使用深度學習框架[Chainer](https://chainer.org/)實作。
-
-此篇有投上 ICLR 2018，
 
 還有使用ICLR2018的[Spectral Normalization](https://arxiv.org/abs/1802.05957)的方法。
 

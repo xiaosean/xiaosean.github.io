@@ -38,9 +38,9 @@ CVPR 18還有一篇也是在做domain adaptation的
 
 [Fully Convolutional Adaptation Networks for Semantic Segmentation](https://arxiv.org/abs/1804.08286)
 
-資料集都一樣，我下一篇會介紹。
+資料集都一樣，我有介紹過[FCAN簡介](https://xiaosean.github.io/deep%20learning/computer%20vision/2018/06/20/FCAN/)有興趣的可以去看看。
 
-
+那篇準確度更高，不過沒code。
 
 # 簡介
 
