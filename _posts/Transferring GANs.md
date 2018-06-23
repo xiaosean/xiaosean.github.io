@@ -1,0 +1,206 @@
+---
+# Posts need to have the `post` layout
+layout: post
+comments: true
+
+# The title of your post
+title: Transferring GANs: generating images from limited data
+
+# (Optional) Write a short (~150 characters) description of each blog post.
+# This description is used to preview the page on search engines, social media, etc.
+description: >
+  Yaxing Wang, Chenshen Wu, Luis Herranz, Joost van de Weijer, Abel Gonzalez-Garcia, Bogdan Raducanu, ["Transferring GANs: generating images from limited data"](https://arxiv.org/abs/1805.01677)arXiv:1805.01677
+
+
+
+# (Optional) Link to an image that represents your blog post.
+# The aspect ratio should be ~16:9.
+image: /assets/img/default.jpg
+
+# You can hide the description and/or image from the output
+# (only visible to search engines) by setting:
+# hide_description: true
+# hide_image: true
+
+# (Optional) Each post can have zero or more categories, and zero or more tags.
+# The difference is that categories will be part of the URL, while tags will not.
+# E.g. the URL of this post is <site.baseurl>/hydejack/2017/11/23/example-content/
+categories: [Deep Learning, Computer Vision]
+tags: []
+# If you want a category or tag to have its own page,
+# check out `_featured_categories` and `_featured_tags` respectively.
+---
+這篇是CVPR 2018的paper
+
+以及Rank 1 in Segmentation Track of Visual Domain Adaptation Challenge 2017
+
+程式碼：目前沒看到
+
+CVPR 18還有一篇也是在做domain adaptation的，
+
+[Learning to Adapt Structured Output Space for Semantic Segmentation](https://arxiv.org/abs/1802.10349)
+
+我有介紹過有興趣的可以看這篇[AdaptSegNet簡介](https://xiaosean.github.io/deep%20learning/computer%20vision/2018/06/20/AdaptSegNet/)
+
+
+
+# 簡介
+
+FCAN是基於FCN[1]架構作延伸，
+
+目標是在Real world的場景中也希望有很高的準確度。
+
+做的事情就是domain adaptation，
+
+想法也挺簡單的有兩個概念
+
+第一個是將輸入的圖片做一個畫風轉換，
+
+讓source domain以及target domain的圖片看起來都跟source domain差不多。
+
+另一個就是透過discriminator，
+
+最終目標是讓discriminator分辨不出來，
+
+這樣就達成了domain adaptation的任務了。
+
+使用GTA5的影像作為訓練集，
+
+不只有在cityscapes的資料及上測試，
+
+還有在最近新出的Berkeley Deep Driving Segmentation (BDDS) dataset上面都有測出個成績。
+
+![](/assets/img/2018-06-20-FCAN/overview.png)
+
+# 問題介紹
+
+對於semantic segmentation的任務需要基於pixel level 的資料，
+
+但是如果要用人工標籤這些資料是相當耗時的，
+
+因此希望可以透過遊戲中的場景的影像資料套用到實際場景。
+
+但這件事情為什麼難呢？
+
+你可以想像如果我們把澳洲的道路影像套用到台北來的話，
+
+可想而知的是準確度會下降，很直覺的想法就是台北一直下雨，
+
+整個影像看起來的樣子就是不太一樣。
+
+但是經由上面的講法，我們不太可能為了每個城市都去搜集一份dataset,
+
+所以整個任務的目標就是適應場景(domain adaptation)的問題。
+
+
+
+# Model架構
+
+
+![](/assets/img/2018-06-20-FCAN/model.png)
+
+
+Model主要分為兩個部分
+
+- AAN(Appearance Adaptation Networks)
+> 影像轉換成類似的畫風。
+- RAN(Representation Adaptation Networks)
+> 透過discriminator做domain adaptation。
+
+### AAN(Appearance Adaptation Networks)
+
+AAN在做的事情就是讓target domain的影像要相似source domain（GTA5）的影像，
+
+那他怎麼做呢？他的做法也是很特別，
+
+我們希望做的事情是圖片的物體什麼的不變（我稱之content code），
+
+但是那個光影，各種顏色等等的要相似（我稱之style code）。
+
+我們認為content code是屬於較高階的資訊，
+
+那style code是屬於較為低階的資訊。
+
+因此得出下方的結構。
+
+![](/assets/img/2018-06-20-FCAN/AAN.png)
+
+做法為給定一張source domain的圖片 = xs
+以及target domain的dataset = Xt
+
+
+那我們輸入的是一個雜訊，但是他會經由兩個loss function一直做修正，
+
+- 前幾層會和target domain的圖片做loss function，
+- 後幾層會和source domain的feature做loss function。
+
+做1000次修正後，最後input的雜訊會被BP改為一張相似於source image的target domain畫風。
+
+
+### RAN(Representation Adaptation Networks)
+
+![](/assets/img/2018-06-20-FCAN/RAN.png)
+
+- Lseg
+> 如果我們輸入的影像是從Source domain的話，
+>
+> 我們Seg Network所輸出之影像，會與Ground truth做binary cross entropy的loss。
+>
+> 如果你說你要把這個架構應用到實際的場景，但是自己的場景也不能做得差啊，不然怎麼說服別人。
+
+- Ladv
+> 這邊的discriminator是採用ASPP的架構，有興趣的可以去看deeplab v1-v3的架構，
+>
+> 1x1 conv是將ASPP出來的feature map concat（stacked up）後，
+>
+> 將原本ASPP產生的ck個channal經過一個sigmoid function後產生一張圖片（score map），
+>
+> 最後實驗結果有展示出採用ASPP架構和1X1 conv的確有帶來更好的準確度，
+>
+> 整體概念：希望Seg Network所產生出來的影像可以讓discriminator分不出來，
+>
+> 透過這個loss讓SegNetwork可以將target domain所生成的影像也能夠盡量的相似source domain所生成的影像。
+>
+>![](/assets/img/2018-06-20-FCAN/adv-loss.png)
+>
+> 如果是target domian的image D(F(xt)) 希望它為1
+>
+> 如果是target domian的image D(F(xs)) 希望它為0
+
+最終RAN的loss function為
+
+![](/assets/img/2018-06-20-FCAN/adv-loss.png)
+
+lambda 是一個trade off的參數，原作是設定為5。
+
+
+
+# 成果
+
+### ABN - 在generator中採用adaptive BN，這部分我沒有了解的很明白。
+### ADA - 加入Discriminator做domain adaptation的事情。
+### 其餘的部分前面都介紹過了。
+![](/assets/img/2018-06-20-FCAN/result1.png)
+
+## EM - 多個model做ensemble ResNet-101, ResNet152 以及 SENet
+
+![](/assets/img/2018-06-20-FCAN/result2.png)
+
+
+## Berkeley Deep Driving Segmentation (BDDS) dataset成績
+![](/assets/img/2018-06-20-FCAN/result3.png)
+
+
+
+
+
+
+
+
+# 參考資料：
+
+[1] J. Long, E. Shelhamer, and T. Darrell. Fully convolutional networks for semantic segmentation. In CVPR, 2015.
+
+[Fully Convolutional Adaptation Networks for Semantic Segmentation]
+
+[Fully Convolutional Adaptation Networks for Semantic Segmentation]:https://arxiv.org/abs/1804.08286
