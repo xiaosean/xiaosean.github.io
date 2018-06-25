@@ -406,6 +406,7 @@ AC-GAN 是將condition條件(label/text/image)只添加在Generator，
 [2] Heusel, M., Ramsauer, H., Unterthiner, T., Nessler, B., Klambauer, G., Hochreiter,
 S.: Gans trained by a two time-scale update rule converge to a nash equilibrium.
 arXiv preprint arXiv:1706.08500 (2017)
+
 [3] Danihelka, I., Lakshminarayanan, B., Uria, B., Wierstra, D., Dayan, P.: Comparison
 of maximum likelihood and gan-based training of real nvps. arXiv preprint
 arXiv:1705.05263 (2017)
