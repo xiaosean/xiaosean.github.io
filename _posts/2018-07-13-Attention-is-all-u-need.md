@@ -31,6 +31,8 @@ tags: []
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
 
+NIPS 2017 paper
+
 此篇為NLP相關的大作，
 
 是由Google在2017年6月提出，
