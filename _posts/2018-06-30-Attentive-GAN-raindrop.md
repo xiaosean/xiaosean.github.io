@@ -133,6 +133,9 @@ CVPR 2018 Spotlight
 
 ![](/assets/img/2018-06-30-Attentive-GAN/fig8.png)
 
+2018/07/17 更新
+> 雖然我把ConvLSTM看完了[ConvLSTM簡介]，但我還是不清楚這邊將attention用concat的方式餵進LSTM的想法是從哪來的。
+
 #### Contextual Autoencoder
 
 ![](/assets/img/2018-06-30-Attentive-GAN/fig4.png)
@@ -244,3 +247,5 @@ R ： 從training data sample出一張Groundtruth的圖片
 [Attentive Generative Adversarial Network for Raindrop Removal from A Single Image]:https://arxiv.org/pdf/1711.10098.pdf
 
 [Grad-Cam簡介]:https://xiaosean.github.io/deep%20learning/computer%20vision/2018/06/04/Grad-CAM/
+
+[ConvLSTM簡介]:https://xiaosean.github.io/deep%20learning/computer%20vision/2018/07/17/Conv-LSTM/
