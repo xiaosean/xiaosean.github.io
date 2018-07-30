@@ -284,7 +284,7 @@ Github Code:https://github.com/NVIDIA/FastPhotoStyle
 依據上圖所示，我們之後的 λ 都採用1e-4
 
 
-# 實驗
+# 實驗：
 	
 使用 VGG-19 的 conv1_1 ~ conv4_1 當作 Encoder，
 
@@ -298,13 +298,13 @@ Loss function : L2 + perceptual loss。
 
 也採用了前面 WCT 有使用到的 multi-level stylization 的技巧。
 
-# 結果 （（單純轉換不使用Segmentation作輔助
+# 結果 ：（（單純轉換不使用Segmentation作輔助
 
 ![](/assets/img/2018-07-30-Photorealistic/fig6.png)
 
 ![](/assets/img/2018-07-30-Photorealistic/fig7.png)
 
-## 失敗的case
+## 失敗的Case
 
 ![](/assets/img/2018-07-30-Photorealistic/fig10.png)
 
@@ -349,7 +349,7 @@ paper : guided image filtering
 
 
 
-# 結論
+# 結論：
 
 提出新的相片畫風轉換，
 
