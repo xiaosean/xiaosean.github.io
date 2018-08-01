@@ -131,7 +131,7 @@ Attention優點
 	> 
 	> 原文一開始用不同的符號dk/dv表示各自的dimension，然而實際使用卻是dimension都設定為一樣。
 	> 
-	> 概念為  Q X V 獲得一個Attention(可以理解成熱力圖/遮罩Mask，了解哪些key是重要的)，然後再 X V(value)
+	> 概念為  Q X K 獲得一個Attention(可以理解成熱力圖/遮罩Mask，了解哪些key是重要的)，然後再 X V(value)
 	>
 	> 備註：這邊的 X 是一對一相乘 dot-product 
 
