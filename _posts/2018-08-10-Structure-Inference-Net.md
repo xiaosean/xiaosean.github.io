@@ -33,7 +33,7 @@ tags: []
 ---
 CVPR 2018 paper
 
-Github Code:https://github.com/choasup/SIN
+Github Code：https://github.com/choasup/SIN
 
 Github Code（核心部分）
 - Model架構
@@ -298,7 +298,7 @@ GRU 的 Initial hidden state 設為每個框框的 Feature vector 用於記錄�
 > 最後再將 Hidden state 輸出為最後的結果。
 
 
-# 實驗結果
+# 實驗結果：
 
 在 PASCAL VOC 以及  COCO Dataset做實驗，
 
