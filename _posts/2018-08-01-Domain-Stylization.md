@@ -259,7 +259,7 @@ e.g.
 結果是都做得不錯。
 
 
-# 討論
+# 討論：
 
 提出透過 Frechet Inception distance (FID) 來量化圖像合成的結果好不好，
 
