@@ -319,7 +319,7 @@ Line Message API - https://developers.line.me/en/services/messaging-api/
 [Line Message API]: https://developers.line.me/en/services/messaging-api/
 [Line Bot SDK Github]: https://github.com/line/line-bot-sdk-python
 [Heroku]: https://www.heroku.com/
-[Flask結合Heroku教學]:https://xiaosean.github.io/server/2018/04/11/Flash_Heroku/
+[Flask結合Heroku教學]:https://xiaosean.github.io/server/2018/04/11/Flask_Heroku/
 [Flask結合Ngrok教學]:https://xiaosean.github.io/server/2018/04/18/Flask_Ngrok/
 [Line chatbot 應用篇]:https://xiaosean.github.io/chatbot/2018/04/19/LineChatbot_usage/
 [Line chatbot issue 31]:https://github.com/line/line-bot-sdk-python/issues/37
