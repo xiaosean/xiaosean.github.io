@@ -145,7 +145,7 @@ Dataset：沒找到。
 
 ## M-Net
 
-此處使用 Deep convolutional encoder-deocder network，
+此處使用 Deep convolutional encoder-decoder network，
 
 用於細節處的偵測，如頭髮。
 
