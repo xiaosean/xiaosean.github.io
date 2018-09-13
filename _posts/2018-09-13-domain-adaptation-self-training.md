@@ -58,7 +58,7 @@ Github code:沒找到
 
 但是只使用上面方式是不夠的。
 
-近年對城市場景(Cityscenes)的資料集進行 Semantic segmentation Domaia adaptation 的實驗時，
+近年對城市場景(Cityscenes)的資料集進行 Semantic segmentation Domain adaptation 的實驗時，
 
 會發現道路、天空的準確度是相對高的，
 
@@ -126,7 +126,7 @@ Github code:沒找到
 
 可是對於 DA 的問題來說，
 
-我們是沒有 target domain 的 ground turth(GT) 的 labels，
+我們是沒有 target domain 的 ground truth(GT) 的 labels，
 
 但是我們可以用現有的模型(p)預測出 target domain 的 semantic segmentation 結果，
 
@@ -211,9 +211,7 @@ Github code:沒找到
 > 而透過下方這公式我們希望可以 minimize yˆ
 >
 > ![](/assets/img/2018-09-13-UDA-Self-Training/eq4.png)
->
->
-> 透過這種方式調整整個架構的 w。
+
 
 - b) 固定yˆ  調整 w 權重來 minimize loss eq(3)
 
