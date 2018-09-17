@@ -97,11 +97,11 @@ PConv 主要公式如下。
 而在此篇論文有提出對於上方公式有幾個疑慮，
 
 - Mask 傳遞機制
-> My,x處 : 他不論該 kernal 內的 mask 內有幾個未知有幾個是有效的pixel， 
+> My,x處 : 他不論該 kernel 內的 mask 內有幾個未知有幾個是有效的pixel， 
 > 
 > 只要有一個是有效的pixel傳遞下去都為1，
 > 
-> 可以思考幾個情況，舉例 kernal 為 5 X 5，
+> 可以思考幾個情況，舉例 kernel 為 5 X 5，
 >
 > 當 5 X 5 的 mask 全為 1的時候， 該位置傳遞到下一層也為 1
 > 
@@ -154,7 +154,7 @@ PConv 主要公式如下。
 
 但是用意是希望可以學會其相對應 Channel 的 Mask（學習空間資訊）。
 
-最後將兩個 Channel elment-wise 的相乘，
+最後將兩個 Channel element-wise 的相乘，
 
 達到 Gated conv 所希望傳達的概念。
 

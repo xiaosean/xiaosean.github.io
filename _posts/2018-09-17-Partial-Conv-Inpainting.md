@@ -279,6 +279,8 @@ http://masc.cs.gmu.edu/wiki/partialconv
 
 Free-Form Image Inpainting with Gated Convolution : https://arxiv.org/abs/1806.03589
 
+[Gated Convolution 圖像修復任務 Deepfillv2 - Free-Form Image Inpainting with Gated Convolution] - 09/18更新
+
 # 參考資料：
 
 
@@ -301,3 +303,5 @@ Gatys, L.A., Ecker, A.S., Bethge, M.: A neural algorithm of artistic style. arXi
 preprint arXiv:1508.06576 (2015)
 
 [arXiv:Image Inpainting for Irregular Holes Using Partial Convolutions]:https://arxiv.org/abs/1804.07723
+
+[Gated Convolution 圖像修復任務 Deepfillv2 - Free-Form Image Inpainting with Gated Convolution]:https://xiaosean.github.io/deep%20learning/computer%20vision/2018/09/18/Gated-Conv-Inpainting/
