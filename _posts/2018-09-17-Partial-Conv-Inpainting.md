@@ -32,7 +32,7 @@ ECCV 2018 paper, Nvidia團隊提出
 
 Github code(Pytorch)非官方實作 : https://github.com/naoto0804/pytorch-inpainting-with-partial-conv
 
-Demo videos : https://www.youtube.com/watch?v=gg0F5JjKmhA
+Demo video : https://www.youtube.com/watch?v=gg0F5JjKmhA
 
 ![](/assets/img/2018-09-17-Partial-Conv-Inpainting/fig1.png)
 
@@ -132,7 +132,7 @@ m' 為下一層 layer 的 mask
 > 等傳遞到後面的 Layer 有較多的資訊時再做修補。
 
 
-而透過 PCov 的架構，只要有 Vaild 搭配 Hole 的時候(上圖綠框)，
+而透過 PConv 的架構，只要有 Valid 搭配 Hole 的時候(上圖綠框)，
 
 傳遞到下一層時Mask會逐漸從 0 填補為 1(因eq2上半部的式子 if sum(M) > 0)，
 
