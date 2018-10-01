@@ -4,7 +4,7 @@ layout: post
 comments: true
 
 # The title of your post
-title: Domain transfer through deep activation matching 簡介
+title: GAM簡介 - Domain transfer through deep activation matching
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
