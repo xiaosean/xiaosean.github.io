@@ -71,9 +71,9 @@ Github code : 沒找到
 並且在幾個 DA 常用的資料集都顯現出此方法能夠提高準確度：
 - GTA to CityScapes (semantic segmentation)
 - SYNTHIA to CityScapes (semantic segmentation)
-- USPS and MNIST (image classificataion)
+- USPS and MNIST (image classification)
 
-此篇都是基於 independent and identically distributed(i.i.d. Guassian) 的原理去思考的，
+此篇都是基於 independent and identically distributed(i.i.d. Gaussian) 的原理去思考的，
 
 建議去看 [知乎：詳解深度學習中的Normalization，BN/LN/WN] ，
 
@@ -175,7 +175,7 @@ Ai: 在模型 F 中的第 i 個激活函數後的輸出 activation at the i-th l
 
 是在第 i 個 layer 中的第 k 個 channel
 
-並且假設 A 遵循 Guassian 分布，
+並且假設 A 遵循 Gaussian 分布，
 
 因此我們就會有 mean µ and standard deviation σ，
 
@@ -239,7 +239,7 @@ Ai: 在模型 F 中的第 i 個激活函數後的輸出 activation at the i-th l
 
 而在 Classification 任務中，因為比較簡單，
 
-因此只要在最後2層加入 Disciminator 即可。
+因此只要在最後2層加入 Discriminator 即可。
 
 # 實驗結果
 
