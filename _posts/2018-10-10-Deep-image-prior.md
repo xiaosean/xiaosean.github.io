@@ -147,6 +147,20 @@ P.S.
 
 上方詳情可看[Deep image prior Homepage]
 
+訓練示意圖(2018.10.15更新)
+
+訓練至100步
+
+![](/assets/img/2018-10-10-Deep-image-prior/demo-it1.png)
+
+訓練至600步
+
+![](/assets/img/2018-10-10-Deep-image-prior/demo-it2.png)
+
+訓練至2400步
+
+![](/assets/img/2018-10-10-Deep-image-prior/demo-it3.png)
+
 
 # 應用
 
