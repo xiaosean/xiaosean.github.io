@@ -31,15 +31,11 @@ tags: []
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+ECCV 2018 paper
+
 這篇是在探討Transferring與pretrained model間的關係，以及搭配conditional GANs的結果探討。
 
 程式碼：[https://github.com/yaxingwang/Transferring-GANs](https://github.com/yaxingwang/Transferring-GANs)
-
-這篇目前還沒發到conference中，
-
-因為他 2018 May 4 才發佈到arxiv，
-
-此文的撰稿時間為 2018 Apr 20。
 
 # 摘要
 
