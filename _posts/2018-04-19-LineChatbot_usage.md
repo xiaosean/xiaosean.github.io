@@ -109,6 +109,20 @@ ID of the target recipient. Use a userId, groupId, or roomId value returned in a
 
 於是我們修改reply的程式碼
 
+如下列網址：
+
+https://github.com/xiaosean/Line_chatbot_tutorial/blob/master/show_how_to_get_user_id.py
+
+主要的程式碼如下：
+~~~python
+
+@handler.add(MessageEvent, message=TextMessage)
+def handle_message(event):
+    # get user id when reply
+    user_id = event.source.user_id
+    print("user_id =", user_id)
+~~~
+
 就可以拿到user id了 這樣寫真智障
 
 反正我們先拿到user id 等等再對他做專門的推播試試
