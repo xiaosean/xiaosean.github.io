@@ -89,6 +89,12 @@ https://developers.line.me/en/faq/
 
 文件是這樣寫拉
 
+## 取得本人的 user id 可直接從網頁得知
+
+![](/assets/img/2018-04-19-LINE-ChatBot-Usage/console-user-id.png)
+
+## 另一個方式可以透過伺服器取得
+
 ID of the target recipient. Use a userId, groupId, or roomId value returned in a webhook event object. Do not use the LINE ID found on the LINE app.
 
 要他回覆才能獲得user id
