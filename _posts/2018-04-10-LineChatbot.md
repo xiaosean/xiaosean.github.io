@@ -153,7 +153,9 @@ Ngrok
 >Channel ID 以及 Channel access token 這兩組號碼要保存好，之後要填入到API中。
 {:.message}
 
+## 還有個要注意的點是 webhook 的選項要記得開啟 - Enabled
 
+![](/assets/img/2018-04-10-LINE-ChatBot/webhook_enable.png)
 
 # 實際應用
 
