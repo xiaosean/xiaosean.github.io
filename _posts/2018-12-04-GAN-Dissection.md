@@ -313,7 +313,7 @@ GAN 近年來發展得非常火熱，
 
 資料集選用 LSUN scene datasets，
 
-使用(Xiao et al., 2018)所提出的 Segmentiaton model 其訓練在 ADE20K scene dataset，
+使用(Xiao et al., 2018)所提出的 Segmentation model 其訓練在 ADE20K scene dataset，
 
 
 # 一些探討
