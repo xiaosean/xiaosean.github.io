@@ -4,7 +4,7 @@ layout: post
 comments: true
 
 # The title of your post
-title: 簡介 - Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training
+title: CBST簡介 - Unsupervised Domain Adaptation for Semantic Segmentation via Class-Balanced Self-Training
 
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
