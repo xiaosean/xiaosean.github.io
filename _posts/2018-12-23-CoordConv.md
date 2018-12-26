@@ -30,6 +30,8 @@ tags: []
 ---
 NIPS 2018 paper
 
+Paper link：https://arxiv.org/abs/1807.03247
+
 Github code:論文有給連結，但是連結失效。
 > 可關注 Uber Repo：https://github.com/uber-research
 
