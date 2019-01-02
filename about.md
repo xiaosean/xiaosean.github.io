@@ -29,11 +29,45 @@ image: /assets/img/blog/hydejack-8.png
   > 傳送門 --- [blog] 或 [post].
 {:.lead}
 
+## Education
+
+**Feb 2018 – Present**<BR>
+國立臺灣科技大學-資工所。<BR>
+Studying master degree in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
+Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
+
+**Sep 2014 – Jan 2018**<BR>
+國立臺灣科技大學，主修資工系。<BR>
+Bachelor in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
+
+**GPA**
+
+|學期      | 成績（滿分4.0） |
+|:--------:|:----:|
+|103-1|3.90|
+|103-2|4.00|
+|104-1|3.99|
+|104-2|3.93|
+|105-1|3.77|
+|105-2|3.94|
+|106-1|3.75|
+
+
 ## 目前研究的領域
+**電腦視覺** 
+
 **機器學習** 
 
-
 **資料分析**
+
+
+## Languages
+
+|語言      | 程度 |
+|:--------:|:----:|
+|中文 | 流利|
+|英文    | 中等 - TOEIC 830|
+
 
 ## Experience
 
@@ -61,72 +95,6 @@ image: /assets/img/blog/hydejack-8.png
 **Aug 2016 – Feb 2017 保險媒合APP**
 > 幫公司做一款保險媒合APP(Android)，結合google play金流，最後上架至google play。
 {:.lead}
-
-
-
-
-## Languages
-
-|語言      | 程度 |
-|:--------:|:----:|
-|中文 | 流利|
-|英文    | 中等 - TOEIC 830|
-
-## Education
-
-**Feb 2018 – NOW**<BR>
-國立臺灣科技大學-資工所。<BR>
-Master Student in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
-
-**Sep 2014 – Jan 2018**<BR>
-國立臺灣科技大學，主修資工系。<BR>
-Bachelor in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
-
-**GPA**
-
-|學期      | 成績（滿分4.0） |
-|:--------:|:----:|
-|103-1|3.90|
-|103-2|4.00|
-|104-1|3.99|
-|104-2|3.93|
-|105-1|3.77|
-|105-2|3.94|
-|106-1|3.75|
-
-**Courses**
-
-- CS1003301 - 計算機程式設計 (C)
-- CS1004301 - 計算機程式設計實習(C) 
-- EC1003301 - 程式設計(C)
-- CS2002301 - 資料結構(C++)
-- CS3001301 - 演算法(C++)
-- CS3005301 - 物件導向程式設計(Java)
-- CS2001301 - 工程數學(C++)
-- CS2901701 - 多媒體實習(MATLAB/C#)
-- CS2015701 - 基礎電腦圖學(C++)
-- CS3040701 - 行動裝置程式設計(Android)
-- MI4214701 - 進階物件導向程式設計(Java)
-- CS3038701 - 手機遊戲設計(Unity)
-- CS3010301 - 資料庫系統(MySQL)
-- CS1006301 - 線性代數
-- CS1601001 - 微積分
-- CS3003301 - 離散數學
-- CS3031301 - 編碼理論
-- CS2008301 - 機率與統計
-- CS4001301 - 程式語言
-- CS2006301 - 計算機組織
-- CS3004301 - 計算機網路概論
-- CS3009301 - 作業系統
-- CS3025301 - 軟體工程
-- CS3007701 - 多媒體資訊系統導論 
-- CS3020301 - 編譯器設計
-- CS3017301 - 數值計算
-- CS3014701 - 模糊系統導論
-- CS3029701 - 入侵偵測與防禦
-- CI5317701 - 彩色影像處理
-- CS5017701 - 影像處理  
-- CS5141701 - 深度學習導論及其應用  
 
 
 **Awards**
