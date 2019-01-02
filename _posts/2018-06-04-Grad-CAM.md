@@ -15,7 +15,7 @@ description: >
 
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/img/default.jpg
+<!-- image: /assets/img/default.jpg -->
 
 # You can hide the description and/or image from the output
 # (only visible to search engines) by setting:

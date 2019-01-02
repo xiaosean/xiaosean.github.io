@@ -28,12 +28,12 @@ author1:
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
+
     # twitter:         <username>
     facebook:        xiaosean000
     github:          xiaosean
     email:           mailto:<xiaosean5408@gmail.com>
     LinkedIn: https://www.linkedin.com/in/%E8%A9%A0%E7%BF%94-%E6%9E%97-304307ab/
-
     # rss:             https://<url>/feed.xml
     # google:          <number>
     # vk:              <username>

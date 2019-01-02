@@ -14,7 +14,11 @@ description: >
 # You can show the description on the page by deleting this line:
 hide_description: true
 
+# TODO
+image: /assets/img/blog/hydejack-8.png
+
 # Setting `menu` will generate an entry in the sidebar.
+
 # menu: true
 ---
 

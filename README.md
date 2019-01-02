@@ -1,6 +1,6 @@
 # Hydejack Starter Kit
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://qwtel.com/hydejack/).
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
 ## Quick Start
 ### Running locally
@@ -8,7 +8,7 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://qwtel.com
 2. Open terminal, `cd` into root directory (where `_config.yml` is located)
 3. `bundle install` [^1]
 4. `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+5. Open <http://localhost:4000/hy-starter-kit/>
 
 ### GitHub Pages
 1. Fork this repository.
@@ -22,9 +22,9 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://qwtel.com
 
 ## What's next?
 * Open files and read the comments
-* Read the [docs](https://qwtel.com/hydejack/docs/)
-* Buy the [PRO version](https://qwtel.com/hydejack/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
 
 [^1]: Requires Bundler. Install with `gem install bundler`.
 
-[download]: https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
+[download]: https://github.com/qwtel/hy-starter-kit/archive/master.zip

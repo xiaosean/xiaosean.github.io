@@ -13,7 +13,7 @@ description: >
   David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B. Tenenbaum, William T. Freeman, Antonio Torralba. ["GAN Dissection: Visualizing and Understanding Generative Adversarial Networks"](https://arxiv.org/abs/1811.10597). arxiv preprint.
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
-image: /assets/img/default.jpg
+<!-- image: /assets/img/default.jpg -->
 
 # You can hide the description and/or image from the output
 # (only visible to search engines) by setting:
