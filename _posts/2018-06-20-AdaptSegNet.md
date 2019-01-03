@@ -9,7 +9,7 @@ title: AdaptSegNet簡介 - Learning to Adapt Structured Output Space for Semanti
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  i-Hsuan Tsai, Wei-Chih Hung, Samuel Schulter, Kihyuk Sohn, Ming-Hsuan Yang, Manmohan Chandraker, ["Learning to Adapt Structured Output Space for Semantic Segmentation"](https://arxiv.org/abs/1802.10349)arXiv:1802.10349
+  Yi-Hsuan Tsai, Wei-Chih Hung, Samuel Schulter, Kihyuk Sohn, Ming-Hsuan Yang, Manmohan Chandraker, ["Learning to Adapt Structured Output Space for Semantic Segmentation"](https://arxiv.org/abs/1802.10349)arXiv:1802.10349
 
 
 
