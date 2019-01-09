@@ -427,6 +427,6 @@ def hello_world():
 [Flask补充系列–将应用部署在Heroku上]:http://www.bjhee.com/flask-heroku.html
 [Heroku]: https://www.heroku.com/
 [Flask Quick Start]:http://flask.pocoo.org/docs/0.12/quickstart/
-[透過Python架設Line Chatbot]:https://xiaosean.github.io/server/2018/04/10/LineChatbot/
+[透過Python架設Line Chatbot]:https://xiaosean.github.io/chatbot/2018-04-10-LineChatbot/
 
 <!--Heroku=> Xi-s-000 -->
