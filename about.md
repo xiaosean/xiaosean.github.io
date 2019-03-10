@@ -9,7 +9,6 @@ title: About
 # Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  1111
 
 # You can show the description on the page by deleting this line:
 hide_description: true
@@ -29,18 +28,29 @@ image: /assets/img/blog/hydejack-8.png
   > 傳送門 --- [blog] 或 [post].
 {:.lead}
 
+## Languages
+
+|語言      | 程度 |
+|:--------:|:----:|
+|中文 | 流利|
+|英文    | 中等 - TOEIC 830|
+
+
 ## Education
 
 **Feb 2018 – Present**<BR>
 國立臺灣科技大學-資工所。<BR>
 Studying master degree in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
+Research field: Computer Vision based on Deep learning.<BR>
 Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
 
 **Sep 2014 – Jan 2018**<BR>
 國立臺灣科技大學，主修資工系。<BR>
 Bachelor in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
+GPA - 3.9/4.0. <BR>
+Ranked 3rd out of 54.<BR>
 
-**GPA**
+<!-- **GPA**
 
 |學期      | 成績（滿分4.0） |
 |:--------:|:----:|
@@ -50,24 +60,7 @@ Bachelor in Computer Science at National Taiwan University of Science and Techno
 |104-2|3.93|
 |105-1|3.77|
 |105-2|3.94|
-|106-1|3.75|
-
-
-## 目前研究的領域
-**電腦視覺** 
-
-**機器學習** 
-
-**資料分析**
-
-
-## Languages
-
-|語言      | 程度 |
-|:--------:|:----:|
-|中文 | 流利|
-|英文    | 中等 - TOEIC 830|
-
+|106-1|3.75| -->
 
 ## Experience
 
@@ -96,10 +89,11 @@ Bachelor in Computer Science at National Taiwan University of Science and Techno
 > 幫公司做一款保險媒合APP(Android)，結合google play金流，最後上架至google play。
 {:.lead}
 
+## Publication
+- <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019.
 
-**Awards**
-
-Nov 2014
+## Awards
+- Nov 2014
 >102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
 {:.lead}
 
