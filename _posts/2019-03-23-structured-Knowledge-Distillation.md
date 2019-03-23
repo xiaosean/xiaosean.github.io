@@ -64,7 +64,7 @@ Paper link : https://arxiv.org/abs/1903.04197
 
 使用 ResNet 18 當作小型模型 - Student(S)，
 
-而 PSPNet with RestNet 101 當作大型模型 - Teacher(T)。
+而 PSPNet with ResNet 101 當作大型模型 - Teacher(T)。
 
 備註：
 > 針對物件分類任務有其他篇論文。
@@ -182,6 +182,8 @@ Input(RGB) + Q(Semantic segmentation) 作為 Discriminator 的輸入，
 ![](/assets/img/2019-03-23-structured-Knowledge-Distillation/fig5.png)
 
 ![](/assets/img/2019-03-23-structured-Knowledge-Distillation/fig6.png)
+
+![](/assets/img/2019-03-23-structured-Knowledge-Distillation/fig4.png)
 
 0.5 以及 1 可理解模型參數量砍半以及正常模型，
 
