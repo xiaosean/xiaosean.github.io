@@ -118,7 +118,7 @@ Paper link : https://arxiv.org/abs/1903.04197
 
 之後再讓 S 去學習 T 的 pair-wise similarities。
 
-![](/assets/img/2019-03-23-structured-Knowledge-Distillation/aij.png)
+![](/assets/img/2019-03-23-structured-Knowledge-Distillation/eq2.png)
 
 實務上的作法就是把 H x W 攤平 => N， 然後轉置相乘變為 N * N 的矩陣，
 
