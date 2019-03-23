@@ -93,7 +93,7 @@ Ranked 3rd out of 54.<BR>
 - <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019.
 
 ## Awards
-- Nov 2014
+- Nov 2013
 >102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
 {:.lead}
 
