@@ -28,13 +28,6 @@ image: /assets/img/blog/hydejack-8.png
   > 傳送門 --- [blog] 或 [post].
 {:.lead}
 
-## Languages
-
-|語言      | 程度 |
-|:--------:|:----:|
-|中文 | 流利|
-|英文    | 中等 - TOEIC 830|
-
 
 ## Education
 
@@ -50,6 +43,12 @@ Bachelor in Computer Science at National Taiwan University of Science and Techno
 GPA - 3.9/4.0. <BR>
 Ranked 3rd out of 54.<BR>
 
+## Publication
+- <B><I>Yong-Xiang Lin</I></B>, Daniel Tan, Wen-Huang Cheng, Yung-Yao Chen, Kai-Lung Hua. "Spatially-aware Domain Adaptation for Semantic Segmentatino of Urban Scenes," In Proceedings of the IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, September 22-25, 2019.
+
+- <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019.
+
+
 <!-- **GPA**
 
 |學期      | 成績（滿分4.0） |
@@ -64,6 +63,14 @@ Ranked 3rd out of 54.<BR>
 
 ## Experience
 
+**Feb 2019 – Jun 2019 計算機程式實習 Teacher Assistant**
+> Course Code : IM1202301 Lecturer:蔡欣男 
+> 
+> Course Code : IM1202302 Lecturer:楊朝龍 
+> 
+> 教導工管系學生寫 Python
+{:.lead}
+
 **July 2015 – Apr 2017 CEO/President at [臺灣科技大學電腦研習社]**
 > 學校的學藝性社團，從事電腦相關的資訊推廣，以及教導同學們如何撰寫程式,使用套裝軟體等.
 {:.lead}
@@ -73,11 +80,11 @@ Ranked 3rd out of 54.<BR>
 - 教授課程
 
 **Apr 2017 – Apr 2018 通話APP**
-> 使用Obj-C開發Linphone框架之通話App(IOS)，並上架至App Store。
+> 使用 Obj-C 開發 Linphone 框架之通話 App(iOS)，並上架至 App Store。
 {:.lead}
 
 **Feb 2018 – Mar 2018 北藝大人潮統計APP**
-> 使用Swift開發北藝大之App(IOS)，其功能為透過資料庫之AP資料，繪製出視覺化圖表，方便學生了解各個餐廳當前人數，並上架至App Store。
+> 使用 Swift 開發北藝大之 App(iOS)，其功能為透過資料庫之 AP 資料，繪製出視覺化圖表，方便學生了解各個餐廳當前人數，並上架至 App Store。
 {:.lead}
 
 **Jun 2017 – Jan 2018 遠傳資料分析**
@@ -86,16 +93,22 @@ Ranked 3rd out of 54.<BR>
 
 
 **Aug 2016 – Feb 2017 保險媒合APP**
-> 幫公司做一款保險媒合APP(Android)，結合google play金流，最後上架至google play。
+> 幫公司做一款保險媒合 APP(Android)，結合 Google play 金流，最後上架至 Google play。
 {:.lead}
 
-## Publication
-- <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019.
 
 ## Awards
-- Nov 2013
+- **Nov 2013 金手獎**
 >102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
 {:.lead}
+
+
+## Languages
+
+|語言      | 程度 |
+|:--------:|:----:|
+|中文 | 流利|
+|英文    | 中等 - TOEIC 830|
 
 
 <!-- 
