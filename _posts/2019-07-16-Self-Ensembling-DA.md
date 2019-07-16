@@ -50,9 +50,9 @@ Source Domain 有圖片(Xs)以及標註(Ys - GT)，
 
 讓模型能在 Target Domain 也能表現良好，
 
-難處是因為 Source Domian 可能是合成的資料集，其顏色、外觀和現實世界的圖片有著落差。
+難處是因為 Source Domain 可能是合成的資料集，其顏色、外觀和現實世界的圖片有著落差。
 
-所以直接套用至真實世界的資料集 - Target Domian 時準確度往往會下降很多。
+所以直接套用至真實世界的資料集 - Target Domain 時準確度往往會下降很多。
 
 而本文提出 Self-ensembling 的架構就是為了緩解這問題所提出的 Domain Adaptation 方式。
 
@@ -95,7 +95,7 @@ Note:
 
 ## Confidence thresholding
 
-如果 Teacher 預測出的結果 probility < 0.968，
+如果 Teacher 預測出的結果 probability < 0.968，
 
 就將 Self-ensembling loss 設定為 0，
 
