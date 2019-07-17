@@ -120,7 +120,7 @@ Teacher 就會透過 Self-ensembling loss 去訓練 Student，
 
 上面這樣的訓練方式是原先 [Self-ensembling for visual domain adaptation] 的設定，
 
-當時的任務是 Closed-set Domain adpatation 為 Source 以及 Target Domain 的類別相同時，
+當時的任務是 Closed-set Domain adaptation 為 Source 以及 Target Domain 的類別相同時，
 
 但此論文不同之處是 Open-Set，
 
@@ -221,7 +221,7 @@ Note: L_B 是指 class balance loss，可看原本的論文 [Self-ensembling for
 ![](/assets/img/2019-07-17-KASE-openDA/table2.png)
 
 
-綠色代表 unknown 類別
+綠色代表 Unknown 類別
 
 ![](/assets/img/2019-07-17-KASE-openDA/fig3.png)
 
