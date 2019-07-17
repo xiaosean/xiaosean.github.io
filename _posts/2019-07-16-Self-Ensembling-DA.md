@@ -72,9 +72,9 @@ Self-ensembling 主要是透過改良 Semi-supervised 的方法，
 
 整體的訓練方法與 Mean teachers 那篇論文差不多，
 
-只是架構調整為應用於 Domain Adaptation 的任務，
+而本文將架構調整為應用於 Domain Adaptation 的任務，
 
-將原本的架構結合 Target Domain 的部分，見上圖可明白差異。
+將原本的架構結合 Target Domain 的部分，見上圖可明白差異，
 
 Self-ensembling 主要是有兩個部分
 - Student => 輸出稱作 z
@@ -87,6 +87,14 @@ Self-ensembling 主要是有兩個部分
 希望兩個模型能夠輸出一致的結果(z 及 z^) - Self-ensembling loss(Unsupervised)，
 
 Mean-square-loss 用來確保兩個輸出要相似。
+
+其概念為當 Teacher 模型能夠很肯定的說這張 Target Domain 的圖片是屬於哪個類別的話，
+
+Teacher 就會透過 Self-ensembling loss 去訓練 Student，
+
+讓 Student 慢慢適應至 Target Domain，
+
+這樣一想就和 Semi-supervised 的任務真像呢～
 
 Note: 
 > 1.其訓練過程為輸入同一張圖片(x)至兩個相同架構的模型，雖然輸入同一張圖片，但輸入至 Student / Teacher 時會經過不同的 batch normalize, droupout, noise, image augmentation 等等的設定。
