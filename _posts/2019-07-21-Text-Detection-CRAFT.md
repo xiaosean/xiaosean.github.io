@@ -44,7 +44,7 @@ Github(Pytorch): https://github.com/clovaai/CRAFT-pytorch
 
 現實世界的文字(word)可能是彎曲、不規則的形狀，
 
-以 Detecion-based 的方法預測雖然已經能夠獲得不錯的準確度，
+以 Detection-based 的方法預測雖然已經能夠獲得不錯的準確度，
 
 ![](/assets/img/2019-07-21-Text-Detection-CRAFT/fig1.png)
 
@@ -137,7 +137,7 @@ Github(Pytorch): https://github.com/clovaai/CRAFT-pytorch
 我們可以進行 Supervised 的訓練，
 
 ![](/assets/img/2019-07-21-Text-Detection-CRAFT/eq3.png)
-- *: Pesudo Ground Truth，透過我們資料前處理來的。
+- *: Pseudo Ground Truth，透過我們資料前處理來的。
 - Sr: Region score
 - Sa: Affinity score
 - Sc(p): 在合成資料集權重為 1
