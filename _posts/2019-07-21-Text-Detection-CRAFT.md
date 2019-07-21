@@ -160,7 +160,7 @@ Github(Pytorch): https://github.com/clovaai/CRAFT-pytorch
 ![](/assets/img/2019-07-21-Text-Detection-CRAFT/eq2.png)
 - R(w): bounding box
 
-## Loss Funtion
+## Loss Function
 
 ![](/assets/img/2019-07-21-Text-Detection-CRAFT/eq3.png)
 
