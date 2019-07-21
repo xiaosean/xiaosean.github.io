@@ -30,7 +30,7 @@ tags: []
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
-尚未被 Conference 接收，於 3 May 2019 提交至 arXiv.
+尚未被 conference 接收，於 3 May 2019 提交至 arXiv.
 
 Paper link : https://arxiv.org/abs/1905.01068
 
