@@ -226,7 +226,7 @@ Clustering 時就可以用比較簡單的方式，
 
 那基本上就是從這些分數高的隨便挑一個的 Embedding 當作中心點。
 
-## Post-proceesion
+## Post-processing
 
 透過上面 Seed map 的部分，
 
