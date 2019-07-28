@@ -10,8 +10,8 @@ slug: Chatbot
 
 # (Optional) Write a short (~150 characters) description of this featured category.
 description: >
-   how to use Chatbot.
+   How to use Chatbot.
 
 # Setting `menu` will generate an entry in the sidebar for this category.
-# menu: true
+menu: False
 ---

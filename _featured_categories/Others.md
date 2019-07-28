@@ -3,15 +3,15 @@
 layout: list
 
 # The title of the category's page.
-title: SERVER
+title: OTHERS
 
 # The name of the category, used in a post's front matter (e.g. category: <slug>).
-slug: SERVER
+slug: OTHERS
 
 # (Optional) Write a short (~150 characters) description of this featured category.
 description: >
-   SERVER
+   Something cool.
 
 # Setting `menu` will generate an entry in the sidebar for this category.
-# menu: true
+menu: False
 ---
