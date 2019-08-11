@@ -126,7 +126,7 @@ Github(Tensorflow): https://github.com/kylehkhsu/cactus-maml
 ![](/assets/img/2019-08-11-Unsupervised-meta-learning/algor1.png)
 Line2 先訓練 Embedding function  再將資料集 X 進行 embedding 的抽取 - z
 
-Line3: 跑 P 次 k-means，這邊跑 P 次可以看作是大量的抽取任務當作 Reguarlization 防止 Overfitting。
+Line3: 跑 P 次 k-means，這邊跑 P 次可以看作是大量的抽取任務當作 Regularization 防止 Overfitting。
 > Note: 在 Omniglot 的實驗中， k = 500, P = 100。
 
 Line5、6: 從眾多 P 挑一個，在從那一個挑 N 個類別。
