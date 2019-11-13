@@ -74,8 +74,8 @@ Github: https://github.com/vt-vl-lab/Guided-pix2pix
 > Note: 預測參數的模型稱作 PG(Parameter generator) 紫色的圖例
 > AAAI'18 [Feature-wise Linear Modulation(FiLM)]
 > 其實原文是用在 VQA 任務拉。。。
-- 本文提出之 Bi-dierctional FT - (d)
-> 不僅僅是透過 Guid 的參數去 Normalize 原本的圖片，
+- 本文提出之 Bi-directional FT - (d)
+> 不僅僅是透過 Guide 的參數去 Normalize 原本的圖片，
 > 甚至是透過圖片所預測出的參數去 Normalize Guide 的部分，
 > 這部分作者認為可以將此架構視為 Teacher - Student 的架構
 > 以往都是 Teacher 單方面的教 Student，
