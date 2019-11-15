@@ -93,7 +93,7 @@ Github: 2019.11.15 尚無。
 
 因此我們可以將這些 Latent space 分為我們有興趣的天氣 Weather(W) 相關與其他無關的 Others(O)。
 
-![](/assets/img/2019-11-15-Domain-bridge-img-to-img/k.png=600x300)
+![](/assets/img/2019-11-15-Domain-bridge-img-to-img/k.png)
 
 > 備註：原文的講解是 K 為 Fine-grained domains，但我改用 Latent space 做解說。
 
