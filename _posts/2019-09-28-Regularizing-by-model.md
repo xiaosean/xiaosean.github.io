@@ -46,7 +46,7 @@ Paper link: https://arxiv.org/abs/1804.02009
 
 學習出各個 Channel 之間的關聯性，
 
-因 VAE 是利用 Encoder 將資料壓縮之後再將壓縮過的資料經由 Decoder 還原，
+因 Autoencoder 是利用 Encoder 將資料壓縮之後再將壓縮過的資料經由 Decoder 還原，
 
 在壓縮資料(1x1 convolution 做維度縮減)時，
 
@@ -64,13 +64,13 @@ Paper link: https://arxiv.org/abs/1804.02009
 
 ![](/assets/img/2019-09-28-Regularizing-by-model/fig1.png)
 
-Step1.(圖片上半部)首先我們會訓練 VAE 架構，
+Step1.(圖片上半部)首先我們會訓練 Autoencoder 架構，
 
 輸入圖片輸出語意分割(Semantic segmentation)的結果，
 
-將 VAE 訓練至收斂後，我們就凍結（Freeze） VAE 的權重。
+將 Autoencoder 訓練至收斂後，我們就凍結（Freeze） Autoencoder 的權重。
 
-Step2.(圖片下半部)透過監督式學習結合 VAE 架構所訓練的解碼器(Decoder)進行訓練，
+Step2.(圖片下半部)透過監督式學習結合 Autoencoder 架構所訓練的解碼器(Decoder)進行訓練，
 
 將主要模型的特徵輸入至解碼器，希望他經由解碼後能夠輸出 Semantic segmentation 的結果。
 - Crossentropy Loss(Primary, GT) 
@@ -83,13 +83,13 @@ Step2.(圖片下半部)透過監督式學習結合 VAE 架構所訓練的解碼�
 
 ![](/assets/img/2019-09-28-Regularizing-by-model/fig4.png)
 
-Step1.(圖片上半部)首先我們會訓練 VAE 架構，
+Step1.(圖片上半部)首先我們會訓練 Autoencoder 架構，
 
 輸入圖片輸出語意分割(Semantic segmentation)的結果，
 
-將 VAE 訓練至收斂後，我們就凍結（Freeze） VAE 的權重。
+將 Autoencoder 訓練至收斂後，我們就凍結（Freeze） Autoencoder 的權重。
 
-Step2.(圖片下半部)透過監督式學習結合 VAE 架構所訓練的編碼器(Encoder)進行訓練。
+Step2.(圖片下半部)透過監督式學習結合 Autoencoder 架構所訓練的編碼器(Encoder)進行訓練。
 
 - Crossentropy Loss(Primary, GT) 
 - MSE Loss(Primary, Auxiliary) - 針對 Feature map 做比對
@@ -99,12 +99,12 @@ Step2.(圖片下半部)透過監督式學習結合 VAE 架構所訓練的編碼�
 
 下方實驗的 hypercolumn 可忽略，那是其他論文所提出的架構。
 
-從下表可看出，使用本文所提出的方法 - 搭配 VAE 的 Decoder 一起做訓練，結果有顯著的提升。
+從下表可看出，使用本文所提出的方法 - 搭配 Autoencoder 的 Decoder 一起做訓練，結果有顯著的提升。
 ![](/assets/img/2019-09-28-Regularizing-by-model/table1.png)
 
-下表第二列是使用本文的分兩階段（Freeze VAE 權重）做訓練 - 60.6
+下表第二列是使用本文的分兩階段（Freeze Autoencoder 權重）做訓練 - 60.6
 
-第三列則顯示分兩階段但是不 Freeze VAE 權重做訓練 - 60.2，與第二列比較代表了並不是越多分支一起訓練就會好，還是要有策略地去訓練。
+第三列則顯示分兩階段但是不 Freeze Autoencoder 權重做訓練 - 60.2，與第二列比較代表了並不是越多分支一起訓練就會好，還是要有策略地去訓練。
 
 第四列則顯示不分階段，兩個階段一起(joint)做訓練 - 58.8
 ![](/assets/img/2019-09-28-Regularizing-by-model/table2.png)
