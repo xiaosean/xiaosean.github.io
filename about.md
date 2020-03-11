@@ -37,6 +37,10 @@ Studying master degree in Computer Science at National Taiwan University of Scie
 Research field: Computer Vision based on Deep learning.<BR>
 Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
 
+**Sep 2019 – Mar 2020**<BR>
+RWTH Aachen University, Germany<BR>
+Exchange student.<BR>
+
 **Sep 2014 – Jan 2018**<BR>
 國立臺灣科技大學，主修資工系。<BR>
 Bachelor in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
