@@ -20,20 +20,22 @@ image: /assets/img/blog/hydejack-8.png
 
 # menu: true
 ---
+目前就讀於國立臺灣科技大學(NTUST)資工所(CS)的博士生(Ph. D. Student)。
 
-此網站創立於20180404
-
-主要是寫一些平時所學到的東西
-
-  > 傳送門 --- [blog] 或 [post].
-{:.lead}
-
+[CV](https://www.cakeresume.com/s--SMTGPSvhl2ZPDggJ4PXYcQ--/xiaosean)
 
 ## Education
 
-**Feb 2018 – Present**<BR>
+**Sep 2020 – Presnet**<BR>
 國立臺灣科技大學-資工所。<BR>
-Studying master degree in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
+Ph.D. Studnet, Department of CS at National Taiwan University of Science and Technology，Taiwan Tech<BR>
+Research field: Computer Vision based on Deep learning.<BR>
+Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
+
+
+**Feb 2018 – Mar 2020**<BR>
+國立臺灣科技大學-資工所。<BR>
+Master degree in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
 Research field: Computer Vision based on Deep learning.<BR>
 Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
 
@@ -48,10 +50,17 @@ GPA - 3.9/4.0. <BR>
 Ranked 3rd out of 54.<BR>
 
 ## Publication
-- <B><I>Yong-Xiang Lin</I></B>, Daniel Tan, Wen-Huang Cheng, Yung-Yao Chen, Kai-Lung Hua. "Spatially-aware Domain Adaptation for Semantic Segmentatino of Urban Scenes," In Proceedings of the IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, September 22-25, 2019.
+- <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Yung-Yao Chen, Ching-Chun Huang, and Kai-Lung Hua. "Domain Adaptation with Foreground/Background Cues and Gated Discriminators,"IEEE MultiMedia Magazine, vol. 27, no. 3, pp. 44-53, Jul-Sep. 2020. (Impact Factor 2019: 4.962).
+- Daniel Stanley Tan, <B><I>Yong-Xiang Lin</I></B>, and Kai-Lung Hua. "Incremental Learning of Multi-Domain Image-to-Image Translations," to appear in IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT). (Impact Factor 2019: 4.133).
+- Yu-Cheng Liu, Mohammad Shahid, Wannaporn Sarapugdi, <B><I>Yong-Xiang Lin</I></B>, Jyh-Cheng Chen, Kai-Lung Hua, Cascaded Atrous Dual Attention U-Net for Tumor Segmentation, Multimedia Tools and Applications (MTAP). (Impact Factor 2019: 2.313). 
+- <B><I>Yong-Xiang Lin</I></B>, Daniel Tan, Wen-Huang Cheng, Yung-Yao Chen, and Kai-Lung Hua. "Spatially-aware Domain Adaptation for Semantic Segmentation." In Proceedings of the IEEE International Conference on Image Processing (ICIP), Taipei, Taiwan, Sep. 22 - 25, 2019. 
+- <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019. 
 
-- <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019.
-
+## Awards
+- 中華民國影像處理與圖形識別學會(IPPR)第十三屆博碩士論文獎碩士論文優等獎「基於遮罩門控鑑別器之自適應城市場景語意分割模型」
+- **Nov 2013 金手獎**
+>102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
+{:.lead}
 
 <!-- **GPA**
 
@@ -66,6 +75,9 @@ Ranked 3rd out of 54.<BR>
 |106-1|3.75| -->
 
 ## Experience
+
+**Jun 2019 - Aug 2019  Computer Vision Engineer Intern, [Viscovery Inc](https://tw.viscovery.com/).**
+> In Algorithm Team.
 
 **Feb 2019 – Jun 2019 計算機程式實習 Teacher Assistant**
 > Course Code : IM1202301 Lecturer:蔡欣男 
@@ -99,13 +111,6 @@ Ranked 3rd out of 54.<BR>
 **Aug 2016 – Feb 2017 保險媒合APP**
 > 幫公司做一款保險媒合 APP(Android)，結合 Google play 金流，最後上架至 Google play。
 {:.lead}
-
-
-## Awards
-- **Nov 2013 金手獎**
->102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
-{:.lead}
-
 
 ## Languages
 
