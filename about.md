@@ -22,7 +22,7 @@ image: /assets/img/blog/hydejack-8.png
 ---
 目前就讀於國立臺灣科技大學(NTUST)資工所(CS)的博士生(Ph. D. Student)。
 
-[CV](https://www.cakeresume.com/s--SMTGPSvhl2ZPDggJ4PXYcQ--/xiaosean)
+[CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
 
 ## Education
 
