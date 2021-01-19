@@ -123,25 +123,37 @@ kramdown:
   math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
-defaults:
-  # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
-  # but we want them to be `WebPage`s:
-  - scope:
-      type:            projects
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            featured_categories
-    values:
-      seo:
-        type:          WebPage
-  - scope:
-      type:            featured_tags
-    values:
-      seo:
-        type:          WebPage
+# defaults:
+#   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
+#   # but we want them to be `WebPage`s:
+#   - scope:
+#       type:            projects
+#     values:
+#       seo:
+#         type:          WebPage
+#   - scope:
+#       type:            featured_categories
+#     values:
+#       seo:
+#         type:          WebPage
+#   - scope:
+#       type:            featured_tags
+#     values:
+#       seo:
+#         type:          WebPage
 
+# file: _config.yml
+defaults:
+  - scope:
+      path: posts.md
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: about.md
+    values:
+      menu: true
+      order: 2
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -234,18 +246,8 @@ hydejack:
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
   cookies_banner:      true
-# file: _config.yml
-defaults:
-  - scope:
-      path: posts.md
-    values:
-      menu: true
-      order: 1
-  - scope:
-      path: about.md
-    values:
-      menu: true
-      order: 2
+
+
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.

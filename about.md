@@ -1,29 +1,11 @@
 ---
 layout: about
-image: /assets/img/blog/hydejack-9.jpg
-description: >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
 hide_description: true
-redirect_from:
-  - /download/
+menu: true
 ---
 
 # About
 
-# Write a short (~150 characters) description of each blog post.
-# This description is used to preview the page on search engines, social media, etc.
-description: >
-
-## Hydejack
-
-# TODO
-image: /assets/img/blog/hydejack-8.png
-
-# Setting `menu` will generate an entry in the sidebar.
-
-# menu: true
----
 目前就讀於國立臺灣科技大學(NTUST)資工所(CS)的博士生(Ph. D. Student)。
 
 [CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
@@ -99,54 +81,10 @@ Ranked 3rd out of 54.<BR>
 - 課程規劃
 - 教授課程
 
-**Apr 2017 – Apr 2018 通話APP**
-> 使用 Obj-C 開發 Linphone 框架之通話 App(iOS)，並上架至 App Store。
-{:.lead}
-
-**Feb 2018 – Mar 2018 北藝大人潮統計APP**
-> 使用 Swift 開發北藝大之 App(iOS)，其功能為透過資料庫之 AP 資料，繪製出視覺化圖表，方便學生了解各個餐廳當前人數，並上架至 App Store。
-{:.lead}
-
 **Jun 2017 – Jan 2018 遠傳資料分析**
 > 做資料探勘分析客戶喜好，以期望精準行銷。
 {:.lead}
 
-
-**Aug 2016 – Feb 2017 保險媒合APP**
-> 幫公司做一款保險媒合 APP(Android)，結合 Google play 金流，最後上架至 Google play。
-{:.lead}
-
-## Languages
-
-|語言      | 程度 |
-|:--------:|:----:|
-|中文 | 流利|
-|英文    | 中等 - TOEIC 830|
-
-
-<!-- 
-code block
-~~~js
-~~~
- -->
-<!-- 
-|                                     | Free                                   | PRO                                          |
-|:------------------------------------|:--------------------------------------:|:--------------------------------------------:|
-| Blog                                | &#x2714;                               | &#x2714;                                     |
-| [Features][feat]                    | &#x2714;                               | &#x2714;                                     |
-| [Portfolio] Layout                  |                                        | &#x2714;                                     |
-| [Resume] Layout                     |                                        | &#x2714;                                     |
-| [Welcome] Layout                    |                                        | &#x2714;                                     |
-| [Newsletter Box][news]              |                                        | &#x2714;                                     |
-| [Custom Forms][forms]               |                                        | &#x2714;                                     |
-| No Hydejack Branding                |                                        | &#x2714;                                     |
-| License                             | [GPL-3.0][license]                     | [PRO]                                        |
-| Source                              | [GitHub][src]                          | Included                                     |
-| Support[^1]                         | No                                     | No                                           |
-| Price                               | Free                                   | $29                                          |
-|                                     | [**Download**][kit]                    | [**Buy Now - $29**][buy] [^2]                |
-{:.stretch-table}
- -->
 
 [blog]: https://www.xiaosean.website
 [post]: https://www.xiaosean.website/posts/
