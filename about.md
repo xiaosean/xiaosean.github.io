@@ -10,6 +10,11 @@ menu: true
 
 [CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
 
+## Language
+- Chinese: Native
+- English: TOEIC 830
+- Japanese: JLPT N3
+
 ## Education
 
 **Sep 2020 – Presnet**<BR>
