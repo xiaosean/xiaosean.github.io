@@ -67,6 +67,9 @@ Ranked 3rd out of 54.<BR>
 
 ## Experience
 
+**Feb 2021 – Present Special Assistant to the Dean Office of Industry-Academia Collaboration at NTUST**
+> https://iac.ntust.edu.tw/p/412-1061-8897.php?Lang=zh-tw
+
 **Jun 2019 - Aug 2019  Computer Vision Engineer Intern, [Viscovery Inc](https://tw.viscovery.com/).**
 > In Algorithm Team.
 
