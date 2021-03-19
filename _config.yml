@@ -103,8 +103,8 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 kramdown:
-  math_engine:         mathjax
-  # math_engine:         katex
+  # math_engine:         mathjax
+  math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 # defaults:
@@ -330,10 +330,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jekyll-seo-tag
-
-
-remote_theme: qwtel/hydejack@v8.1.1
-
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------
