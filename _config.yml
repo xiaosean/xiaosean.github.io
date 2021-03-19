@@ -121,6 +121,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 kramdown:
   math_engine:         mathjax
+  # math_engine:         katex
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 # defaults:
