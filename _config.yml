@@ -71,23 +71,6 @@ paginate:              10
 paginate_path:         /:num/
 
 
-# Collections
-# ----------------------------------------------------------------------------------------
-
-collections:
-  featured_categories:
-    permalink:         /:name/
-    output:            true
-
-  featured_tags:
-    permalink:         /tag-:name/
-    output:            true
-
-  projects:
-    permalink:         /projects/:path/
-    output:            true
-
-
 # Theme
 # ---------------------------------------------------------------------------------------
 
@@ -241,12 +224,15 @@ hydejack:
   # This only affects the meta tag, not the color specified in the app manifest.
   no_theme_color:      false
 
+  # Disable the breadcrumbs above the title
+  no_breadcrumbs:      false
+
   # Set to `true` when building with the `--lsi` option
   use_lsi:             true
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
 
 
@@ -266,6 +252,9 @@ collections:
   featured_categories:
     permalink:         /:name/
     output:            true
+
+  # TODO
+  hide_last_modified:  false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -287,9 +276,26 @@ collections:
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
     enabled:           false
-    cache_version:     7
+    cache_version:     13
     precache_assets:
       - /assets/img/swipe.svg
+
+
+# Collections
+# ----------------------------------------------------------------------------------------
+
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
+
+  projects:
+    permalink:         /projects/:path/
+    output:            true
 
 
 # File inclusion/exclusion
@@ -298,6 +304,7 @@ collections:
 exclude:
   - .jekyll-cache
   - .sass-cache
+  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
