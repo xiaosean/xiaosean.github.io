@@ -10,6 +10,8 @@ menu: true
 
 [CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
 
+[Medium](https://medium.com/@xiaosean5408)
+
 ## Latex
 
 $$
