@@ -11,7 +11,7 @@ title: YolactEdge簡介 - Real-time Instance Segmentation on the Edge
 # (Optional) Write a short (~150 characters) description of each blog post.
 # This description is used to preview the page on search engines, social media, etc.
 description: >
-  Haotian Liu, Rafael A. Rivera Soto, Fanyi Xiao, Yong Jae Lee. [YolactEdge: Real-time Instance Segmentation on the Edge](https://arxiv.org/abs/2012.12259). In ArXiv preprint.
+  Haotian Liu, Rafael A. Rivera Soto, Fanyi Xiao, Yong Jae Lee. [YolactEdge: Real-time Instance Segmentation on the Edge](https://arxiv.org/abs/2012.12259). In ArXiv preprint(IEEE under review).
  
 # (Optional) Link to an image that represents your blog post.
 # The aspect ratio should be ~16:9.
