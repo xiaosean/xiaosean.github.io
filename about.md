@@ -6,17 +6,13 @@ menu: true
 
 # About
 
-目前就讀於國立臺灣科技大學(NTUST)資工所(CS)的博士生(Ph. D. Student)。
+目前就讀於國立臺灣科技大學資工所的博士班學生。
+
+Studying for a Ph.D. in Computer Science at National Taiwan University of Science and Technology (NTUST). Committed to the field of computer vision (CV). Read the latest papers and share them on my blog.
 
 [CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
 
 [Medium](https://medium.com/@xiaosean5408)
-
-## Latex
-
-$$
-\min_{G}\max_{D}\mathbb{E}_{x\sim p_{\text{data}}(x)}[\log{D(x)}] +  \mathbb{E}_{z\sim p_{\text{generated}}(z)}[1 - \log{D(G(z))}]
-$$
 
 ## Language
 - Chinese: Native
