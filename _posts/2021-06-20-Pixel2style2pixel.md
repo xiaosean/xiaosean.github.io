@@ -30,6 +30,8 @@ tags: []
 # If you want a category or tag to have its own page,
 # check out `_featured_categories` and `_featured_tags` respectively.
 ---
+In CVPR 2021.
+
 Paper link: https://arxiv.org/abs/2008.00951
 
 Github(Pytorch): https://github.com/eladrich/pixel2style2pixel
