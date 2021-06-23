@@ -75,7 +75,7 @@ Colab(可直接跑程式碼看結果)：https://colab.research.google.com/github
 
 由於該模型高度仰賴 StyleGAN v2，因此若想實現的任務沒有 StyleGAN v2 的權重，則無法使用此框架。
 
-![](/assets/img/2021-06-20-Pixel2style2pixel/toonify.jpeg)
+![](/assets/img/2021-06-20-Pixel2style2pixel/toonify.png)
 
 本模型之限制：
 1. 需要有對應任務的 StyleGAN 權重，因 StyleGAN 作為 Decoder 掌管了最終輸出的圖片。
