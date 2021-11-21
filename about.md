@@ -8,7 +8,7 @@ menu: true
 
 目前就讀於國立臺灣科技大學資工所的博士班學生。
 
-Studying for a Ph.D. in Computer Science at National Taiwan University of Science and Technology (NTUST). Committed to the field of computer vision (CV). Read the latest papers and share them on my blog.
+Pursuing a Ph.D. in Computer Science from Taiwan University of Science and Technology (NTUST). Committed to the field of computer vision, share the latest papers on my blog.
 
 [CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
 
@@ -21,28 +21,30 @@ Studying for a Ph.D. in Computer Science at National Taiwan University of Scienc
 
 ## Education
 
-**Sep 2020 – Presnet**<BR>
+**Sep 2020 – Present**<BR>
 國立臺灣科技大學-資工所。<BR>
 Ph.D. Studnet, Department of CS at National Taiwan University of Science and Technology，Taiwan Tech<BR>
 Research field: Computer Vision based on Deep learning.<BR>
-Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
+Multimedia and Visual Computing Laboratory advised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).<BR>
 
+**Sep 2019 – Mar 2020**<BR>
+RWTH Aachen University, Germany<BR>
+Exchange Student, Faculty of Electrical Engineering and Information Technology.<BR>
 
 **Feb 2018 – Mar 2020**<BR>
 國立臺灣科技大學-資工所。<BR>
 Master degree in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
 Research field: Computer Vision based on Deep learning.<BR>
-Supervised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).
+Published 2 journals and 2 conference papers, including 1 IEEE Transaction, and 1 oral paper in the best IEEE image processing conference(ICIP).<BR>
+Master's thesis: Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator.<BR>
+The 13th Best Master Thesis Award of Chinese Image Processing and Pattern Recognition Society(IPPR).<BR>
 
-**Sep 2019 – Mar 2020**<BR>
-RWTH Aachen University, Germany<BR>
-Exchange student.<BR>
 
 **Sep 2014 – Jan 2018**<BR>
 國立臺灣科技大學，主修資工系。<BR>
 Bachelor in Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
-GPA - 3.9/4.0. <BR>
-Ranked 3rd out of 54.<BR>
+Early Graduation based on Academic Excellence, GPA - 3.91/4.0 (Ranked 3rd out of 53).<BR>
+Academic Excellence Award, Awarded to top 5% students in class each semester.<BR>
 
 ## Publication
 - <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Yung-Yao Chen, Ching-Chun Huang, and Kai-Lung Hua. "Domain Adaptation with Foreground/Background Cues and Gated Discriminators,"IEEE MultiMedia Magazine, vol. 27, no. 3, pp. 44-53, Jul-Sep. 2020. (Impact Factor 2019: 4.962).
@@ -52,9 +54,10 @@ Ranked 3rd out of 54.<BR>
 - <B><I>Yong-Xiang Lin</I></B>, Daniel Stanley Tan, Wen-Huang Cheng, Kai-Lung Hua. "Adapting Semantic Segmentation of Urban Scenes via Mask-aware Gated Discriminator," In Proceedings of the IEEE International Conference on Multimedia & Expo (ICME), Shanghai, China, Jul. 8 - 12, 2019. 
 
 ## Awards
-- 中華民國影像處理與圖形識別學會(IPPR)第十三屆博碩士論文獎碩士論文優等獎「基於遮罩門控鑑別器之自適應城市場景語意分割模型」
-- **Nov 2013 金手獎**
->102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
+- **2019 中華民國影像處理與圖形識別學會(IPPR)第十三屆博碩士論文獎碩士論文優等獎**
+論文題目：基於遮罩門控鑑別器之自適應城市場景語意分割模型
+- **2013 金手獎**
+102年度全國高中職工科技藝競賽-電腦軟體設計工 金手獎第三名
 {:.lead}
 
 <!-- **GPA**
