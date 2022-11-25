@@ -74,11 +74,10 @@ Academic Excellence Award, Awarded to top 5% students in class each semester.<BR
 
 ## Experience
 
-**Feb 2021 – Present Special Assistant to the Dean Office of Industry-Academia Collaboration at NTUST**
-> https://iac.ntust.edu.tw/p/412-1061-8897.php?Lang=zh-tw
+**Feb 2021 – Aug 2021 Present Special Assistant to the Dean Office of Industry-Academia Collaboration at NTUST**
+> We provide and integrate inter-disciplinary resources to accelerate, expand and promote the development of international connections, we will maximize the synergy between industry and academia.
 
 **Jun 2019 - Aug 2019  Computer Vision Engineer Intern, [Viscovery Inc](https://tw.viscovery.com/).**
-> In Algorithm Team.
 
 **Feb 2019 – Jun 2019 計算機程式實習 Teacher Assistant**
 > Course Code : IM1202301 Lecturer:蔡欣男 

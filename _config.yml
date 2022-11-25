@@ -60,7 +60,7 @@ disqus: xiaosean
 
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018-2021 XiaoSean. All rights reserved.
+copyright:             © 2018-2022 XiaoSean. All rights reserved.
 
 
 # Format of the permalinks
@@ -149,7 +149,9 @@ disqus:                https-xiaosean-github-io
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
 # google_analytics:      UA-XXXXXXXX-X
-google_analytics:      UA-117098282-1
+google_analytics:      UA-117098282-1 # xiaosean
+google_analytics:      G-99TTPB3TQ3 # Leo
+
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
