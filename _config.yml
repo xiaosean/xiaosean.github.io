@@ -198,7 +198,7 @@ hydejack:
   no_search:           false
 
   # Set to `true` to prevent usage of `hy-img` (lazy-loading images).
-  no_img:              true
+  no_img:              false # 2023.03.11 updated for sidebar
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
   # This will increase site build speed dramatically!

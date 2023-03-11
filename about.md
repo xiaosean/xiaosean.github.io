@@ -10,14 +10,14 @@ menu: true
 
 Pursuing a Ph.D. in Computer Science from Taiwan University of Science and Technology (NTUST). Committed to the field of computer vision, share the latest papers on my blog.
 
-[CV](https://www.cakeresume.com/s--OdjKx_PYH6VvJKbV0tFV1A--/xiaosean)
+[CV](https://www.linkedin.com/in/yong-xiang-lin/overlay/1635511521744/single-media-viewer?type=DOCUMENT&profileId=ACoAABdcRPQB97ly-eZ1_GIOvQMi3ogUFr0QjM4&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BhMOE7iVXTBiyz7Ls8%2Fx%2FzA%3D%3D)
 
 [Medium](https://medium.com/@xiaosean5408)
 
 ## Language
 - Chinese: Native
-- English: TOEIC 830
-- Japanese: JLPT N3
+- English: TOEIC 845
+- Japanese: JLPT N2
 
 ## Education
 
