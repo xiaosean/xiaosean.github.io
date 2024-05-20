@@ -24,7 +24,7 @@ I am actively seeking opportunities in Generative AI and Computer Vision, open t
 **Sep 2020 – Expected Graduation: Aug. 2024**<BR>
 國立臺灣科技大學-資工所。<BR>
 Ph.D. Candidate, Department of Computer Science at National Taiwan University of Science and Technology，Taiwan Tech<BR>
-Research field: Computer Vision based on Deep learning.<BR>
+Research field: Generative AI, Computer Vision based on Deep learning.<BR>
 Multimedia and Visual Computing Laboratory advised by Prof. [Kai-lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm).<BR>
 
 **Sep 2019 – Mar 2020**<BR>
