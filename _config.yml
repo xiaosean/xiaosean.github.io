@@ -30,7 +30,7 @@ title:                 XiaoSean
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hi, I am Xiao Sean. Pursuing a Ph.D. in Computer Science from Taiwan University of Science and Technology (NTUST).
+  Ph.D. in Computer Science. Sharing paper breakdowns and insights on Multimodal AI, Computer Vision, and Generative AI.
 
 
 # A shorter description for the sidebar.
@@ -52,10 +52,10 @@ keywords:              [python, programming, developer, student, NTUST, Taiwan t
 author:
   name:                LIN YONG-XIANG
   email:               <xiaosean5408@gmail.com>
-  picture:  /assets/img/me.jpg
+  picture:  /assets/img/me-chibi.png
   social:
-    facebook: xiaosean000
-    github:  xiaosean
+    # facebook: xiaosean000
+    # github:  xiaosean
     email:    mailto:xiaosean5408@gmail.com
     LinkedIn: https://www.linkedin.com/in/%E8%A9%A0%E7%BF%94-%E6%9E%97-304307ab/
   # Used by `jekyll-seo-tag`:
@@ -87,7 +87,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar-bg-new2.png
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
@@ -405,21 +405,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/default-post-bg.png
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/default-post-bg.png
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/default-post-bg.png
       links:
         - title: Project Link
           url: https://example.com

@@ -7,8 +7,12 @@ hide_description: true
 menu: true
 ---
 
-# Brief portfolio
-I hold a Ph.D. in Computer Science from National Taiwan University of Science and Technology, with expertise in deep learning, computer vision, large language models (LLMs), and multi-agent systems.
+# About Me
+My name is Yong-Xiang (Sean) Lin (林詠翔 in Chinese). I received my Ph.D. in Computer Science from National Taiwan University of Science and Technology (NTUST), advised by Prof. [Kai-Lung Hua](http://faculty.csie.ntust.edu.tw/~hua/index.htm). During my master's degree, I also spent time as an exchange student at RWTH Aachen University, Germany.
+
+My research interests span **Multimodal AI**, **Computer Vision**, and **Generative AI**, including large language/vision models, image-to-image translation, domain adaptation, semantic segmentation, and multi-sensor fusion (visual, thermal, radar, LiDAR). I am also broadly interested in multi-agent systems, knowledge distillation, and efficient deep learning.
+
+I believe in **empowering others through sharing knowledge** — this blog is where I break down research papers and technical concepts to make them more accessible. Feel free to reach out if you're interested in research collaboration or just want to chat about AI.
 
 [Medium](https://medium.com/@xiaosean5408)
 
