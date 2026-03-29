@@ -1,0 +1,11 @@
+/* TEAM */
+Name: Yong-Xiang (Sean) Lin
+Role: Senior AI & Algorithm Software Engineer at NVIDIA
+Location: Taiwan
+Site: https://xiaosean.github.io
+LinkedIn: https://www.linkedin.com/in/yong-xiang-lin/
+GitHub: https://github.com/xiaosean
+
+/* SITE */
+Built with: Jekyll, Hydejack v9 Theme
+Hosted on: GitHub Pages

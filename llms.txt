@@ -1,0 +1,57 @@
+# xiaosean.github.io
+
+> Personal technical blog by Yong-Xiang (Sean) Lin — Senior AI Algorithms Software Engineer at NVIDIA.
+
+## Author
+
+- Name: Yong-Xiang (Sean) Lin / 林詠翔
+- Role: Senior AI Algorithms Software Engineer, NVIDIA (2025–present)
+- Education: Ph.D. in Computer Science and Information Engineering, National Taiwan University of Science and Technology (NTUST), Jan. 2025
+- Research: Generative AI, Computer Vision, Large Language Models (LLMs), Multi-Sensor Fusion, Autonomous Systems
+- Prior: AI Algorithm Software Engineer at Delta Electronics; AI Engineer at International Games System Co.; Multi-Agent AI at Industrial Technology Research Institute; Computer Vision Engineer Intern at Viscovery
+- Languages: Chinese (Native), English (TOEIC 845), Japanese (JLPT N2)
+- LinkedIn: https://www.linkedin.com/in/yong-xiang-lin/
+- Medium: https://medium.com/@xiaosean5408
+- GitHub: https://github.com/xiaosean
+
+## Expertise
+
+- Deep Learning, Computer Vision, Generative AI
+- Large Language Models (LLMs), Natural Language Processing (NLP)
+- Multimodal Models (Vision, Text, Audio), Large Vision Models (LVMs)
+- Multi-Agent Systems, RAG Applications, LangChain, AutoGen
+- Multi-Sensor Fusion (Visual, Thermal, Radar, LiDAR)
+- Diffusion Models, GANs, Vision Transformers
+- Foundation Model Fine-tuning, NVIDIA TAO Toolkit
+- Programming: Python, C++, Java, C
+- Frameworks: TensorFlow, PyTorch, PyTorch Lightning, FastAI, Vector Database
+- Cloud: GCP, Azure, AWS
+- DevOps: Docker, Ansible, Elastic Stack, Grafana, Kubeflow Pipelines, Git
+
+## Achievements
+
+- 13 published journal articles and conference papers across top venues (5 journals + 6 conferences as Ph.D., plus ICLR 2026 and TAAI 2025)
+- Published at ICLR 2026 (OmniVinci: Omni-Modal Understanding LLM)
+- Published at TAAI 2025 (PRISM: Person Re-Identification with RGB-Infrared Self-attention Matching)
+- Published at ACCV 2024 (PixMamba, Anchor-based Referring Expression Comprehension)
+- Published in IEEE Transactions (TCSVT, TNNLS), IEEE MultiMedia, ICIP, ICME, ICCE
+- 150+ total citations on Google Scholar
+- Led 20+ master students in computer vision research projects
+- 2024, Best Poster Award at ICCE
+- 2024, Student Travel Grant at ICCE
+- 2022, Excellent Award (NTD 800,000) in AI+ Star Competition, Ministry of Digital Affairs
+- 2020, Best Master Thesis at IPPR (13th)
+- 2013, 3rd place in National High School Vocational Industrial Skills Competition
+- Early graduation from B.S. with GPA 3.91/4.0, ranked 3rd/53
+- M.S. GPA 4.12/4.30
+- Exchange student at RWTH Aachen University, Germany
+
+## About This Blog
+
+Technical blog covering deep learning, computer vision, NLP, generative AI, and software engineering.
+Posts are written in Chinese and English.
+
+## Contact
+
+For collaborations, research inquiries, or opportunities, connect via LinkedIn:
+https://www.linkedin.com/in/yong-xiang-lin/

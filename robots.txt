@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xiaosean.github.io/sitemap.xml
+
+# AI Agents: see llms.txt for structured site and author information
+# https://xiaosean.github.io/llms.txt

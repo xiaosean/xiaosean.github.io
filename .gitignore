@@ -58,3 +58,22 @@ _zip
 /vendor/bundle
 
 _featured_categories/example.md
+
+# Local environment / shell config
+.bash_profile
+.bashrc
+.zshrc
+.zprofile
+.profile
+.gitconfig
+.ripgreprc
+.gitmodules
+
+# Editor / tool config
+.vscode
+.mcp.json
+.claude/
+
+# Temporary files
+SeanLin_Resume_*.docx
+seanlin_cv.png
